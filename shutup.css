@@ -1,0 +1,345 @@
+/* 
+ * shutup.css 2013-01-15
+ * web - peanut gallery = bliss
+ *
+ * by Steven Frank <stevenf@panic.com>
+ * <http://stevenf.com/pages/shutup/>
+ *
+ * Notes:
+ *
+ * 1. If you want to RE-ENABLE comments for a specific site, add an
+ * override after importing this file.  For example, to re-enable
+ * just Slashdot comments:
+ *  
+ * @import url("http://stevenf.com/pages/shutup/shutup-latest.css");
+ * 
+ * #commentlisting {
+ *     display: inherit !important;
+ * }
+ *
+ * Be aware that some sites may be affected by more than one rule.
+ *
+ * 2. If you'd like to just fade comments out rather than completely 
+ * remove them from the page:
+ * 
+ * Replace:
+ *     display: none !important;
+ *
+ * With something like:
+ *     opacity: 0.1;
+ *
+ */
+
+/* YouTube (standard and Feather interfaces) */
+
+#watch-comment-panel,
+#cm,
+#watch-comments-core,
+
+/* Digg and other sites that use "comments" divs */
+
+.comments,
+.Comments,
+#comments,
+#Comments,
+
+/* CNN and other sites that use Disqus */
+
+#disqus_thread,
+#dsq-content,
+
+/* Ain't It Cool News */
+
+.block-talkback_story,
+
+/* VersionTracker */
+
+#prodReviews,
+
+/* MacUpdate */
+
+.revcontent,
+
+/* WordPress default Kubrick theme and descendents */
+
+.commentlist,
+
+/* Slashdot */
+
+#commentlisting,
+
+/* CBC News */
+
+#socialcomments,
+
+/* C|Net News.com */
+
+.commentwrapper,
+
+/* Reddit */
+
+.commentarea,
+
+/* OregonLive and generic "comment" class */
+
+.comment,
+
+/* KATU */
+
+#commentform,
+
+/* Washington Post and other sites that use "commentText" divs */
+
+.commentText,
+
+/* Gannett newspapers and other sites that use Pluck */
+
+div#pluckcomments,
+
+/* Last.fm shoutbox */
+
+div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer,
+
+/* The Globe and Mail */
+
+#latest-comments,
+
+/* EW */
+
+.commentHolder,
+
+/* Unknown */
+
+.comments-list,
+#blogComments,
+#comments_pane,
+#commentcontainer,
+#commentsDiv,
+
+/* Boxee */
+
+.comment-container, 
+#comment-container,
+
+/* MLB */
+
+#comment_container,
+
+/* CNN */
+
+#commentblob,
+#cnnComments,
+
+/* The Stranger */
+
+#BrowseComments,
+
+/* Yahoo News */
+
+.mwpphu-comments,
+.ugccmt-comments,
+
+/* Coding Horror */
+
+.comments-body,
+
+/* seen on Reuters */
+
+.articleComments,
+
+/* nationalpost.com (Pluck) */
+
+.pluck-comm,
+
+/* KATU */
+
+.page-comments,
+
+/* DeviantArt */
+
+#gmi-CCommentMaster,
+
+/* Some blogs */
+
+.comments-container,
+
+/* Oprah */
+
+#media_comments,
+
+/* 9to5mac */
+
+#idc-container-parent,
+
+/* Livefyre */
+
+#livefyre-body,
+#livefyre,
+
+/* PC World */
+
+#articleComments,
+
+/* Slate */
+
+.js-CommentsArea,
+
+/* NYTimes Blogs */
+
+#readerComments,
+.readerComments,
+#commentsContainer,
+.commentsContainer,
+.commentsModule,
+
+/* nytimes.com */
+
+span.postMetaHeaderCommentCount.commentCount,
+
+/* BBC News */
+
+.dna-comment,
+
+/* ZDNet */
+
+.view-6, 
+.space-_5,
+
+/* Gamasutra */
+
+.all_comments,
+
+/* dvice.com */
+
+#display_comments,
+
+/* hp.com */
+
+.article-comments,
+
+/* unionleader.com */
+
+#commentscontainer,
+
+/* ifc.com */
+
+.echo-stream-container,
+
+/* creativereview.co.uk */
+
+#feedback,
+
+/* wweek.com */
+
+.Comments,
+
+/* thenextweb.com */
+
+#lf_comments,
+#lf_twitter_comments,
+#lf_facebook_comments,
+#lf_comment_stream,
+
+/* MacWorld */
+
+#commentList,
+
+/* ft.com */
+
+#inferno-comments,
+
+/* tidbits.com */
+
+.cb_block,
+
+/* dilbert.com */
+
+.CMT_CommentList,
+
+/* Cracked */
+ 
+#comments_section,
+
+/* Facebook feedback */
+
+.fb-comments,
+
+/* buzzfeed */
+
+#responses,
+#facebook_responses,
+
+/* spiegel.de */
+
+.spCommentsBoxBody,
+
+/* auto-motor-und-sport.de */
+
+.kommentare_uebersicht,
+
+/* corriere.it */
+
+#body_dlt,
+#comment_box_article,
+
+/* repubblica.it */
+
+#ugc-container,
+#gs-social-comments,
+.gig-comments-container,
+
+/* faz.net */
+
+.ArtikelKommentieren,
+
+/* Giant Bomb avatars */
+
+.comment-avatar-wrap,
+
+/* hlntv.com */
+
+.fbFeedbackContent,
+
+/* mirror.co.uk */
+
+.pluck-wrap,
+
+/* TwitPic */
+
+#media-comments,
+
+/* Guardian */
+
+#d2-root,
+
+/* E! Online */
+
+.thyme-comment-list,
+
+/* SoundCloud new */
+
+.commentItemList,
+.waveformComments,
+
+/* Penny Arcade report */
+
+#vanilla-comments,
+
+/* Mother Nature Network */
+
+.replies-wrapper > .replies,
+.view-comment-list,
+
+/* ...misc... */
+
+.discussionContainer,
+.commentBoxStyle,
+.pagecomment,
+.pagecommentheader,
+.com_text,
+.commenttxt,
+.post-comment-list
+
+{
+	display: none !important;
+}
