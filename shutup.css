@@ -3,7 +3,7 @@
  * web - peanut gallery = bliss
  *
  * by Steven Frank <stevenf@panic.com>
- * <http://stevenf.com/pages/shutup/>
+ * <http://stevenf.com/shutup-css/>
  *
  * Notes:
  *
@@ -11,7 +11,7 @@
  * override after importing this file.  For example, to re-enable
  * just Slashdot comments:
  *  
- * @import url("http://stevenf.com/pages/shutup/shutup-latest.css");
+ * @import url("http://stevenf.com/shutup/shutup-latest.css");
  * 
  * #commentlisting {
  *     display: inherit !important;
