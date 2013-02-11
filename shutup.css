@@ -330,6 +330,10 @@ span.postMetaHeaderCommentCount.commentCount,
 .replies-wrapper > .replies,
 .view-comment-list,
 
+/* New Jalopnik (and Gawker?) */
+
+.js_replies,
+
 /* ...misc... */
 
 .discussionContainer,
