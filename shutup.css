@@ -36,12 +36,16 @@
 #cm,
 #watch-comments-core,
 
-/* Digg and other sites that use "comments" divs */
+/* 
+ * Digg and other sites that use "comments" divs
+ * (Make an exception for <code> elements, whose "comments" are
+ * a different animal) 
+*/
 
-.comments,
-.Comments,
-#comments,
-#Comments,
+.comments:not(code),
+.Comments:not(code),
+#comments:not(code),
+#Comments:not(code),
 
 /* CNN and other sites that use Disqus */
 
@@ -228,10 +232,6 @@ span.postMetaHeaderCommentCount.commentCount,
 /* creativereview.co.uk */
 
 #feedback,
-
-/* wweek.com */
-
-.Comments,
 
 /* thenextweb.com */
 
