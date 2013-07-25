@@ -362,6 +362,6 @@ span.postMetaHeaderCommentCount.commentCount,
 }
 
 /* highlight.js */
-:not(code) span.comment {
+code span.comment {
 	display: inline !important;
 }
