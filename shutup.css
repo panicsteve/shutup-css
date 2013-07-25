@@ -360,3 +360,8 @@ span.postMetaHeaderCommentCount.commentCount,
 {
 	display: none !important;
 }
+
+/* highlight.js */
+:not(code) span.comment {
+	display: inline !important;
+}
