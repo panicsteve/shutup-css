@@ -365,3 +365,6 @@ span.postMetaHeaderCommentCount.commentCount,
 code span.comment {
 	display: inline !important;
 }
+
+/* Russia Today */
+.b-comments_page { display: none !important; }
