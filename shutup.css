@@ -346,6 +346,9 @@ span.postMetaHeaderCommentCount.commentCount,
 
 .NB-feed-story-comments,
 
+/* Russia Today */
+.b-comments_page,
+
 /* ...misc... */
 
 #commentlist,
@@ -365,6 +368,3 @@ span.postMetaHeaderCommentCount.commentCount,
 code span.comment {
 	display: inline !important;
 }
-
-/* Russia Today */
-.b-comments_page { display: none !important; }
