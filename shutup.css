@@ -36,6 +36,10 @@
 #cm,
 #watch-comments-core,
 
+/* YouTube (late 2013, G+ integration) */
+
+#comments-test-iframe,
+
 /* 
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
