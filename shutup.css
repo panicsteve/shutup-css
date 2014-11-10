@@ -406,6 +406,12 @@ a.commentCountLink,
 /* wiwo.de */
 .hcf-detail.hcf-comments-container,
 
+/* arstechnica.com */
+
+aside.comments-hotness,
+a.comment-count,
+div.comments-bar,
+
 /* ...misc... */
 
 #commentlist,
