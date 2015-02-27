@@ -416,6 +416,10 @@ div.comments-bar,
 
 .summary-comments,
 
+/* Kotaku */
+.post-content .annotation-footnote-wrapper,
+.post-content .annotateButton,
+
 /* ...misc... */
 
 #commentlist,
