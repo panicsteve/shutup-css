@@ -1,8 +1,8 @@
 /* 
- * shutup.css 2013-02-08
+ * shutup.css
  * web - peanut gallery = bliss
  *
- * by Steven Frank <stevenf@panic.com>
+ * by Steven Frank <stevenf@panic.com> and contributors
  * <http://stevenf.com/shutup-css/>
  *
  * Notes:
@@ -429,7 +429,8 @@ div.comments-bar,
 .pagecommentheader,
 .com_text,
 .commenttxt,
-.post-comment-list
+.post-comment-list,
+#cmtWrapper
 
 {
 	display: none !important;
