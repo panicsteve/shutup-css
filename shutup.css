@@ -425,6 +425,23 @@ div.comments-bar,
 /* imgur */
 #comments-container,
 
+/* Curbed */
+.post-comments-module,
+#comments-count,
+.comments-body-container,
+
+/* Polygon */
+.m-hero__comment-count,
+.comment_count,
+
+/* SB Nation */
+.m-comment-count__bubble,
+.m-stream__node-list__comments,
+
+/* The Verge */
+.p-comment-count,
+.p-entry-header__comments,
+
 /* ...misc... */
 
 #commentlist,
