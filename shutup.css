@@ -54,7 +54,7 @@
 .Comments:not(code),
 #comments:not(code),
 #Comments:not(code),
-#comments.top,
+#comments_container,
 
 /* CNN and other sites that use Disqus */
 
