@@ -5,4 +5,4 @@ shutup.css is a custom stylesheet that can be applied to your browser to hide co
 
 For full installation and usage instructions, please visit:
 
-http://stevenf.com/shutup-css/
+https://stevenf.com/shutupcss/
