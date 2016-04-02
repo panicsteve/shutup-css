@@ -508,6 +508,11 @@ div.comments-bar,
 /* Veja */
 .abril-comentarios-widget,
 
+/* VK */
+.replies_wrap > div:first-child,
+#pv_comments.wall_module,
+#mv_comments.wall_module,
+
 /* ...misc... */
 
 #commentlist,
