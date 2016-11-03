@@ -447,8 +447,7 @@ div.comments-bar,
 .m-stream__node-list__comments,
 
 /* The Verge */
-.p-comment-count,
-.p-entry-header__comments,
+[data-ui=comment],
 
 /* lemonde.fr */
 .liste_reactions,
