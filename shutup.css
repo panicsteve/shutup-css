@@ -552,7 +552,15 @@ div.comments-bar,
 	display: none !important;
 }
 
+
+/* *** Whitelist rules *** */
+
 /* highlight.js */
-code span.comment {
-	display: inline !important;
+code span.comment,
+
+/* Wikipedia revision history */
+#pagehistory .comment
+
+{
+	display: initial !important;
 }
