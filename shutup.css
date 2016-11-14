@@ -553,6 +553,8 @@ div.comments-bar,
 }
 
 /* highlight.js */
-code span.comment {
-	display: inline !important;
+/* Wikipedia revision history */
+code span.comment,
+#pagehistory .comment {
+	display: initial !important;
 }
