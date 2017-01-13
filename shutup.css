@@ -561,7 +561,8 @@ div.comments-bar,
 code span.comment,
 
 /* Wikipedia revision history */
-#pagehistory .comment
+#pagehistory .comment,
+table.diff .comment
 
 {
 	display: initial !important;
