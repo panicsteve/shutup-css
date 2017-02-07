@@ -537,6 +537,9 @@ div.comments-bar,
 /* MacRumors mobile site comments link */
 .teaser .teaser_footer > a,
 
+/* USgamer paragraph comment buttons */
+a.button.annotation-count,
+
 /* ...misc... */
 
 #commentlist,
