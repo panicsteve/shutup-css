@@ -337,10 +337,10 @@ p.theme-comments,
 
 .thyme-comment-list,
 
-/* SoundCloud new */
+/* SoundCloud */
 
-.commentItemList,
-.waveformComments,
+.commentsList__item .commentItem,
+.commentPopover,
 
 /* Penny Arcade report */
 
