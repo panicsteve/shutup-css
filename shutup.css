@@ -560,6 +560,15 @@ a.button.annotation-count,
 
 /* *** Whitelist rules *** */
 
+/*
+ * Some pages use a comments class on the top level element,
+ * blocking the whole page. Weird.
+ */
+html.comments, body.comments,
+html.Comments, body.Comments,
+html#comments, body#comments,
+html#Comments, body#Comments,
+
 /* highlight.js */
 code span.comment,
 
