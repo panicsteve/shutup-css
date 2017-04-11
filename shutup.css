@@ -540,6 +540,12 @@ div.comments-bar,
 /* USgamer paragraph comment buttons */
 a.button.annotation-count,
 
+/* Twitch Chat */
+#right-column .chat-room,
+
+/* YouTube Live Chat */
+#watch-sidebar-live-chat,
+
 /* ...misc... */
 
 #commentlist,
