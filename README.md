@@ -48,7 +48,7 @@ Another option is to install the shutup.css bookmarklet.  The bookmarklet lives 
 
 The bookmarklet can be installed by dragging it into your browser's bookmark bar:
 
-`javascript:%21function%28%29%7Bvar%20e%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ct%3Ddocument.createElement%28%22link%22%29%3Bt.type%3D%22text%2Fcss%22%2Ct.rel%3D%22stylesheet%22%2Ct.href%3Dlocation.protocol%2B%22%2F%2Fstevenf.com%2Fshutup%2Fshutup-latest.css%22%2Ce.appendChild%28t%29%7D%28%29%3B`
+`javascript:%21function%28%29%7Bvar%20e%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ct%3Ddocument.createElement%28%22link%22%29%3Bt.type%3D%22text/css%22%2Ct.rel%3D%22stylesheet%22%2Ct.href%3Dlocation.protocol+%22//rickyromero.com/shutup/updates/shutup.css%22%2Ce.appendChild%28t%29%7D%28%29%3B`
 <p><a href=""><img src="/web/20170419093034im_/https://stevenf.com/gfx/shh.png" width="39" height="20" alt="Shh!"></a></p>
 
 Original bookmark by Justin Ridgewell. HTTPS fix by Alexandre Vallières-Lagacé
