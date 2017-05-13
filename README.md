@@ -1,6 +1,6 @@
 ## shutup.css
 
-shutup.css is a CSS stylesheet ([?](https://en.wikipedia.org/wiki/Style_sheet_(web_development))) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank](http://stevenf.com/).
+shutup.css is a CSS stylesheet ([?](https://en.wikipedia.org/wiki/Style_sheet_(web_development))) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank](https://twitter.com/stevenf/).
 
 ## Why would I use it?
 
@@ -15,7 +15,7 @@ The simplest way to use shutup.css on a conventional desktop or laptop computer 
 
 These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
-Although there is no official Shut Up extension for Firefox at this time, Firefox users have reported success using the [Stylish](http://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
+Although there is no official Shut Up extension for Firefox at this time, Firefox users have reported success using the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
 ## How do I install it on my iPhone or iPad?
 
@@ -32,8 +32,7 @@ shutup.css can be used in any web browser that allows the loading of custom user
 
 To use shutup.css as a custom user stylesheet:
 
-1. Download the auto-updating [shutup.css](http://stevenf.com/shutup/shutup.css) file to your system.
-  If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](http://stevenf.com/shutup/shutup-latest.css) instead, but you will have to occasionally update this file manually.
+1. Download the auto-updating [shutup.css](shutup-user-stylesheet.css) file to your system.*
 2. In your browser's preferences, configure your browser to use shutup.css as a custom user stylesheet. In Safari for OS X, for example, it looks something like this:
 
 <img alt="Safari screenshot" src="docs/safariprefs.png" width="406" />
@@ -41,6 +40,8 @@ To use shutup.css as a custom user stylesheet:
 After selecting "Other..." from the pop-up menu, select the shutup.css file you downloaded in step 1. This process will vary in other browsers, but the general idea is the same.
 
 If you make changes to the stylesheet, or download a new version of shutup.css, you may need to quit and restart your browser to make sure it takes effect.
+
+*If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](https://rickyromero.com/shutup/updates/shutup.css) instead, but you will have to occasionally update this file manually.
 
 ## How about a bookmarklet instead?
 
@@ -70,4 +71,4 @@ Sure! You can [send me a pull request on GitHub](https://github.com/panicsteve/s
 
 ## How do I contact you?
 
-You can contact me at [stevenf@panic.com](mailto:stevenf@panic.com), or on Twitter as [@stevenf](http://twitter.com/stevenf/).
+You can contact me at [stevenf@panic.com](mailto:stevenf@panic.com), or on Twitter as [@stevenf](https://twitter.com/stevenf/).
