@@ -10,7 +10,7 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension.  Currently there are extensions for Safari and Chrome on any operating system:
 
-* [Shut Up for Safari](http://rickyromero.net/misc/SafariExtensions/ShutUp.safariextz) by [Ricky Romero](https://rickyromero.com)
+* [Shut Up for Safari](https://safari-extensions.apple.com/details/?id=net.rickyromero.shutup-TMM5P68287) by [Ricky Romero](https://rickyromero.com)
 * [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US) by [Ricky Romero](https://rickyromero.com)
 
 These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
