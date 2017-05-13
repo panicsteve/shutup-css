@@ -33,15 +33,15 @@ shutup.css can be used in any web browser that allows the loading of custom user
 To use shutup.css as a custom user stylesheet:
 
 1. Download the auto-updating [shutup-user-stylesheet.css](shutup-user-stylesheet.css) file to your system.*
-2. In your browser's preferences, configure your browser to use shutup.css as a custom user stylesheet. In Safari for OS X, for example, it looks something like this:
+2. In your browser's preferences, configure your browser to use shutup-user-stylesheet.css as a custom user stylesheet. In Safari for OS X, for example, it looks something like this:
 
 <img alt="Safari screenshot" src="docs/safariprefs.png" width="406" />
 
-After selecting "Other..." from the pop-up menu, select the shutup.css file you downloaded in step 1. This process will vary in other browsers, but the general idea is the same.
+After selecting "Other..." from the pop-up menu, select the shutup-user-stylesheet.css file you downloaded in step 1. This process will vary in other browsers, but the general idea is the same.
 
 If you make changes to the stylesheet, or download a new version of shutup.css, you may need to quit and restart your browser to make sure it takes effect.
 
-**If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](https://rickyromero.com/shutup/updates/shutup.css) instead, but you will have to occasionally update this file manually.*
+**If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](shutup.css) instead, but you will have to occasionally update this file manually.*
 
 ## How about a bookmarklet instead?
 
