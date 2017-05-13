@@ -36,7 +36,7 @@ To use shutup.css as a custom user stylesheet:
   If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](http://stevenf.com/shutup/shutup-latest.css) instead, but you will have to occasionally update this file manually.
 2. In your browser's preferences, configure your browser to use shutup.css as a custom user stylesheet. In Safari for OS X, for example, it looks something like this:
 
-<p><img src="https://stevenf.com/gfx/safariprefs.png" width="406" height="270" alt="Safari screenshot"></p>
+![Safari screenshot](https://stevenf.com/gfx/safariprefs.png)
 
 After selecting "Other..." from the pop-up menu, select the shutup.css file you downloaded in step 1. This process will vary in other browsers, but the general idea is the same.
 
@@ -49,7 +49,6 @@ Another option is to install the shutup.css bookmarklet.  The bookmarklet lives 
 The bookmarklet can be installed by dragging it into your browser's bookmark bar:
 
 `javascript:%21function%28%29%7Bvar%20e%3Ddocument.getElementsByTagName%28%22head%22%29%5B0%5D%2Ct%3Ddocument.createElement%28%22link%22%29%3Bt.type%3D%22text/css%22%2Ct.rel%3D%22stylesheet%22%2Ct.href%3Dlocation.protocol+%22//rickyromero.com/shutup/updates/shutup.css%22%2Ce.appendChild%28t%29%7D%28%29%3B`
-<p><a href=""><img src="/web/20170419093034im_/https://stevenf.com/gfx/shh.png" width="39" height="20" alt="Shh!"></a></p>
 
 Original bookmark by Justin Ridgewell. HTTPS fix by Alexandre Vallières-Lagacé
 
