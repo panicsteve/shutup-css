@@ -41,7 +41,7 @@ After selecting "Other..." from the pop-up menu, select the shutup.css file you 
 
 If you make changes to the stylesheet, or download a new version of shutup.css, you may need to quit and restart your browser to make sure it takes effect.
 
-*If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](https://rickyromero.com/shutup/updates/shutup.css) instead, but you will have to occasionally update this file manually.
+**If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](https://rickyromero.com/shutup/updates/shutup.css) instead, but you will have to occasionally update this file manually.*
 
 ## How about a bookmarklet instead?
 
