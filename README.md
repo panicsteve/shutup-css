@@ -1,6 +1,6 @@
 ## shutup.css
 
-shutup.css is a CSS stylesheet ([?](https://en.wikipedia.org/wiki/Style_sheet_(web_development))) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank](https://twitter.com/stevenf/).
+shutup.css is a CSS stylesheet ([?](https://en.wikipedia.org/wiki/Style_sheet_(web_development))) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank](https://twitter.com/stevenf/) and [Ricky Romero](https://rickyromero.com).
 
 ## Why would I use it?
 
