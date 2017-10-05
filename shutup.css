@@ -549,6 +549,7 @@ a.button.annotation-count,
 
 /* Twitch Chat */
 #right-column .chat-room,
+.channel-page__right-column .chat__container,
 
 /* YouTube Live Chat */
 #watch-sidebar-live-chat,
