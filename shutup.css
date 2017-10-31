@@ -559,6 +559,16 @@ ytd-live-chat-frame,
 /* GoComics */
 .js-comments-thread-container,
 
+/* Patreon */
+[data-test-tag="comment-row"],
+
+/*
+ * Instagram.
+ * Professional driver, closed course. Do not attempt.
+ */
+span#react-root article section + div > ul > li > a.notranslate,
+span#react-root article section + div > ul > li > a.notranslate + span,
+
 /* ...misc... */
 
 #commentlist,
