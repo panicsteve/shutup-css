@@ -19,7 +19,7 @@ Although there is no official Shut Up extension for Firefox at this time, Firefo
 
 ## How do I install it on my iPhone or iPad?
 
-You must have a 64-bit device running iOS 9 or later.
+You must have a 64-bit device running iOS 10 or later.
 
 The following content blocker apps include shutup.css:
 
