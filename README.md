@@ -12,10 +12,11 @@ The simplest way to use shutup.css on a conventional desktop or laptop computer 
 
 * [Shut Up for Safari](https://safari-extensions.apple.com/details/?id=net.rickyromero.shutup-TMM5P68287) by [Ricky Romero](https://rickyromero.com)
 * [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US) by [Ricky Romero](https://rickyromero.com)
+* [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/) by [Ricky Romero](https://rickyromero.com)
 
 These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
-Although there is no official Shut Up extension for Firefox at this time, Firefox users have reported success using the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
+If you don't want a separate extension, you can instead use the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
 ## How do I install it on my iPhone or iPad?
 
