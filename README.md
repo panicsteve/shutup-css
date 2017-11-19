@@ -8,7 +8,7 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 ## How do I install it on my computer?
 
-The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension.  Currently there are extensions for Safari and Chrome on any operating system:
+The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. Currently there are extensions for Safari, Chrome and Firefox on any operating system:
 
 * [Shut Up for Safari](https://safari-extensions.apple.com/details/?id=net.rickyromero.shutup-TMM5P68287) by [Ricky Romero](https://rickyromero.com)
 * [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US) by [Ricky Romero](https://rickyromero.com)
@@ -29,7 +29,7 @@ The following content blocker apps include shutup.css:
 
 ## Do I have to use an extension or plug-in?
 
-shutup.css can be used in any web browser that allows the loading of custom user stylesheets.  Most popular browsers do for accessibility reasons; for example, to allow a visually impaired user to make text larger.
+shutup.css can be used in any web browser that allows the loading of custom user stylesheets. Most popular browsers do for accessibility reasons; for example, to allow a visually impaired user to make text larger.
 
 To use shutup.css as a custom user stylesheet:
 
@@ -46,7 +46,7 @@ If you make changes to the stylesheet, or download a new version of shutup.css, 
 
 ## How about a bookmarklet instead?
 
-Another option is to install the shutup.css bookmarklet.  The bookmarklet lives in your bookmarks toolbar, and applies the shutup.css stylesheet only when you click on it rather than automatically when pages load.
+Another option is to install the shutup.css bookmarklet. The bookmarklet lives in your bookmarks toolbar, and applies the shutup.css stylesheet only when you click on it rather than automatically when pages load.
 
 The bookmarklet can be installed by selecting the text below and dragging it into your browser's bookmark bar:
 
@@ -56,7 +56,7 @@ The bookmarklet can be installed by selecting the text below and dragging it int
 
 ## Anything I should watch out for?
 
-shutup.css works by looking for blocks of content on the page that are identified in the page's source code as "comments" or similar identifiers.  The stylesheet instructs the web browser to simply not display these blocks.
+shutup.css works by looking for blocks of content on the page that are identified in the page's source code as "comments" or similar identifiers. The stylesheet instructs the web browser to simply not display these blocks.
 
 This may affect some web applications in unexpected ways. I'm told it hides the "discussion" section of Bugzilla installations, for example. Remember to try disabling shutup.css if you think you might be missing important page content.
 
@@ -64,11 +64,11 @@ This may affect some web applications in unexpected ways. I'm told it hides the 
 
 Stylesheets like shutup.css contain no executable code, so they cannot track or spy on you.
 
-If you are using one of the browser extensions, it will periodically contact Ricky's web server solely to check for an update and download it if one is available.  When this happens, the date and time, your IP address, and "User-Agent" string (which identifies your web browser) are logged by the web server.  These logs are kept temporarily for diagnostic purposes only.
+If you are using the Chrome or Safari extensions or the iOS app, it will periodically contact Ricky's web server solely to check for an update and download it if one is available. When this happens, the date and time, your IP address, and "User-Agent" string (which identifies your web browser) are logged by the web server. These logs are kept temporarily for diagnostic purposes only. The Firefox version doesn't use this update feature, [per AMO policy](https://developer.mozilla.org/en-US/Add-ons/AMO/Policy/Reviews#Policies).
 
 ## Can I contribute to shutup.css?
 
-Sure! You can [send me a pull request on GitHub](https://github.com/panicsteve/shutup-css/edit/master/shutup.css).  If you speak CSS but not Git, just email me your proposed changes.
+Sure! You can [send me a pull request on GitHub](https://github.com/panicsteve/shutup-css/edit/master/shutup.css). If you speak CSS but not Git, just email me your proposed changes.
 
 ## How do I contact you?
 
