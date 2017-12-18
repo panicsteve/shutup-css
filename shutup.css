@@ -573,6 +573,9 @@ span#react-root article section + div > ul > li > a.notranslate + span,
 #js-mount-point-comment-module,
 .comment-list,
 
+/* Yahoo! News floating comment dingus */
+#YDC-MainCanvas .canvas-share-buttons > div:last-child,
+
 /* ...misc... */
 
 #commentlist,
