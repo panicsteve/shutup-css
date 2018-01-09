@@ -549,6 +549,7 @@ a.button.annotation-count,
 
 /* Twitch Chat */
 #right-column .chat-room,
+.right-column .chat-room__container,
 .channel-page__right-column .chat__container,
 .chat-pane .chat-pane__chat-list,
 
