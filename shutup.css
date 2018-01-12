@@ -577,6 +577,9 @@ span#react-root article section + div > ul > li > a.notranslate + span,
 /* Yahoo! News floating comment dingus */
 #YDC-MainCanvas .canvas-share-buttons > div:last-child,
 
+/* Refinery29 */
+.sppre_conversation-view,
+
 /* ...misc... */
 
 #commentlist,
