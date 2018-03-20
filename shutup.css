@@ -580,6 +580,9 @@ span#react-root article section + div > ul > li > a.notranslate + span,
 /* Refinery29 */
 .sppre_conversation-view,
 
+/* Steam Community */
+.commentthread_area,
+
 /* ...misc... */
 
 #commentlist,
