@@ -521,11 +521,9 @@ div.comments-bar,
 /* Dailymotion */
 .pl_video_comment_post_and_comments,
 
-/* 
- * nu.nl and other Dutch websites that use the 'reacties' and 'reactieContainer' class
-*/
-.reacties, /* nu.nl */
-.reactieContainer, /* tweakers.net */
+/* Dutch language websites, including nu.nl and tweakers.net */
+.reacties,
+#reacties,
 
 /* investor.bg and possibly others */
 
