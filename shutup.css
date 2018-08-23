@@ -587,6 +587,7 @@ span#react-root article section + div > ul > li > a.notranslate + span,
 /* ...misc... */
 
 #commentlist,
+.comments_area,
 .discussionContainer,
 .commentBoxStyle,
 .pagecomment,
