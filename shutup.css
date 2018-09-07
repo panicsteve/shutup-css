@@ -565,8 +565,8 @@ ytd-live-chat-frame,
  * Instagram.
  * Professional driver, closed course. Do not attempt.
  */
-span#react-root article section + div > ul > li > a.notranslate,
-span#react-root article section + div > ul > li > a.notranslate + span,
+span#react-root main article section + div > ul,
+html.client-root [role="dialog"] article section + div > ul,
 
 /* Pixiv */
 #js-mount-point-comment-module,
