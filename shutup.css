@@ -150,7 +150,7 @@ div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer,
 
 /* The Stranger */
 
-#BrowseComments,
+#BrowseComments, .fa-comment, .comment-count,
 
 /* Yahoo News */
 
@@ -584,6 +584,9 @@ html.client-root [role="dialog"] article section + div > ul,
 
 /* HLTV */
 .contentCol .forum,
+
+/* Quora */
+.threaded_comments,
 
 /* ...misc... */
 
