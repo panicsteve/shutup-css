@@ -288,6 +288,7 @@ p.theme-comments,
 .fb-comments,
 .UFIComment,
 fb\:comments,
+div[data-testid^=UFI2CommentsList],
 
 /* buzzfeed */
 
