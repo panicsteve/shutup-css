@@ -593,6 +593,10 @@ html.client-root [role="dialog"] article section + div > ul,
 /* Quora */
 .threaded_comments,
 
+/* Times of India */
+.topcomment,
+.bottom-comments,
+
 /* ...misc... */
 
 #commentlist,
