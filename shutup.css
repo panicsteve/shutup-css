@@ -33,16 +33,14 @@
  *
  */
 
-/* YouTube (standard and Feather interfaces) */
+/* YouTube */
 
 #watch-comment-panel,
 #cm,
 #watch-comments-core,
 #watch-discussion,
-
-/* YouTube (late 2013, G+ integration) */
-
 #comments-test-iframe,
+ytm-comment-section-renderer,
 
 /* 
  * Digg and other sites that use "comments" divs
