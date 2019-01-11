@@ -392,7 +392,7 @@ div[data-testid^=UFI2CommentsList],
 .communityCanvas,
 
 /* derstandard.de */
-.story-community,
+section#story-community.story-community,
 
 /* presse.at */
 #commentbox,
@@ -557,6 +557,7 @@ a.button.annotation-count,
 .right-column .chat-room__container,
 .channel-page__right-column .chat__container,
 .chat-pane .chat-pane__chat-list,
+div[data-a-target="right-column-chat-bar"],
 
 /* YouTube Live Chat */
 #watch-sidebar-live-chat,
@@ -597,6 +598,9 @@ html.client-root [role="dialog"] article section + div > ul,
 /* Times of India */
 .topcomment,
 .bottom-comments,
+
+/* Sydney Morning Herald (and possibly others) */
+iframe[src*="ffx.io/api/comments"],
 
 /* ...misc... */
 
