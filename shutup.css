@@ -348,6 +348,7 @@ div[data-testid^=UFI2CommentsList],
 
 /* SoundCloud */
 
+.commentsList,
 .commentsList__item .commentItem,
 .commentPopover,
 
