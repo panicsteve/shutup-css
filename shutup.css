@@ -574,12 +574,8 @@ ytd-live-chat-frame,
 /* Patreon */
 [data-test-tag="comment-row"],
 
-/*
- * Instagram.
- * Professional driver, closed course. Do not attempt.
- */
-span#react-root main article section + div > ul,
-html.client-root [role="dialog"] article section + div > ul,
+/* Instagram */
+li.gElp9:not(:first-child),
 
 /* Pixiv */
 #js-mount-point-comment-module,
