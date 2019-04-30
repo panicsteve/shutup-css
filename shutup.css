@@ -1,30 +1,30 @@
-/* 
+/*
  * shutup.css
  * web - peanut gallery = bliss
  *
  * by Steven Frank <stevenf@panic.com> and contributors
  * <https://stevenf.com/shutupcss/>
  *
- * Please do not use shutup.css in derivative works (such as iOS 
+ * Please do not use shutup.css in derivative works (such as iOS
  * Content Blockers or browser extensions) without permission.
- * 
+ *
  * Notes:
  *
  * 1. If you want to RE-ENABLE comments for a specific site, add an
  * override after importing this file.  For example, to re-enable
  * just Slashdot comments:
- *  
+ *
  * @import url("https://stevenf.com/shutup/shutup-latest.css");
- * 
+ *
  * #commentlisting {
  *     display: inherit !important;
  * }
  *
  * Be aware that some sites may be affected by more than one rule.
  *
- * 2. If you'd like to just fade comments out rather than completely 
+ * 2. If you'd like to just fade comments out rather than completely
  * remove them from the page:
- * 
+ *
  * Replace:
  *     display: none !important;
  *
@@ -42,10 +42,10 @@
 #comments-test-iframe,
 ytm-comment-section-renderer,
 
-/* 
+/*
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
- * a different animal) 
+ * a different animal)
 */
 
 .comments:not(code),
@@ -134,7 +134,7 @@ div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer, di
 
 /* Boxee */
 
-.comment-container, 
+.comment-container,
 #comment-container,
 
 /* MLB */
@@ -231,7 +231,7 @@ p.theme-comments,
 
 /* ZDNet */
 
-.view-6, 
+.view-6,
 .space-_5,
 
 /* Gamasutra */
@@ -282,7 +282,7 @@ p.theme-comments,
 .CMT_CommentList,
 
 /* Cracked */
- 
+
 #comments_section,
 
 /* Facebook feedback */
@@ -576,6 +576,7 @@ ytd-live-chat-frame,
 
 /* Instagram */
 li.gElp9:not(:first-child),
+li.lnrre,
 
 /* Pixiv */
 #js-mount-point-comment-module,
@@ -603,10 +604,112 @@ li.gElp9:not(:first-child),
 /* Sydney Morning Herald (and possibly others) */
 iframe[src*="ffx.io/api/comments"],
 
+/* Opinary Widgets */
+.opinary-iframe,
+.opinary-widget-wrapper,
+
+/* Apester Widgets */
+.apester-fill-content,
+
+/* heise.de */
+.comment-button,
+.media-icon--comments,
+.a-article-meta__icon--comments,
+#comments_container,
+.kommentare_lesen_link,
+.forenbeitraege_show,
+a[name="meldung.newsticker.header.kommentarelesen"],
+.kommentare-info,
+
+/* mactechnews.de */
+span[title*="#comments"],
+.MtnCommentScroll,
+#ContentPlaceHolder1_FieldsetCommentEditor,
+#ContentPlaceHolder1_ButtonCommentPublish,
+
+/* maclife.de */
+.shares .count,
+#maclife #comments,
+
+/* apfelpage.de */
+a[href*="#respond"],
+a[href*="#comments"],
+
+/* computerbase.de */
+.article__comments-link,
+
+/* giga.de */
+#comments+#weiterethemen,
+.comment-section,
+
+/* mdr.de */
+.modComments,
+
+/* spiegel.de */
+#spArticleFunctionForum,
+body[data-guj-zone~="forum"] #postList,
+#js-article-comments-box-form,
+.spInteractionMarks,
+
+/* faz.net */
+.tsr-Base_ContentMetaItem-social-feedback,
+#lesermeinungen,
+
+/* tagesspiegel.de */
+#kommentare,
+
+/* haz.de */
+.pdb-article-comments,
+
+/* welt.de */
+.o-teaser__comment-count,
+div[data-external-component="User.Article.Likes"],
+
+/* focus.de */
+#article #commentForm,
+
+/* handelsblatt.de */
+a[href*="detail_tab_comments"],
+.vhb-comments-container,
+
+/* tagesschau.de */
+.inpagecomments,
+
+/* mopo.de */
+a[data-disqus-identifier],
+
+/* t-online.de */
+#talk_community,
+
+/* curved.de */
+.article-content .engagement,
+
+/* netzwelt.de */
+a[href*="#kommentare"],
+
+/* krautreporter.de */
+#show-comments-container,
+.article-comments,
+
+/* perspective-daily.de */
+body[ng-app="pdaily"] a.discussions,
+.discussion_body,
+.tabs_container li:last-child,
+
+/* tz.de */
+.id-Comment,
+
+/* piqd.de */
+.pq-comment-form-wrap,
+.rspec-comments-total,
+
 /* ...misc... */
 
+#comment_entries,
+#comment_form,
 #commentlist,
 .comments_area,
+.comments-area,
 .discussionContainer,
 .commentBoxStyle,
 .pagecomment,
@@ -616,7 +719,6 @@ iframe[src*="ffx.io/api/comments"],
 .post-comments,
 .post-comment-list,
 #cmtWrapper
-
 {
 	display: none !important;
 }
