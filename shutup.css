@@ -576,6 +576,7 @@ ytd-live-chat-frame,
 
 /* Instagram */
 li.gElp9:not(:first-child),
+li.lnrre,
 
 /* Pixiv */
 #js-mount-point-comment-module,
@@ -626,9 +627,23 @@ span[title*="#comments"],
 #ContentPlaceHolder1_FieldsetCommentEditor,
 #ContentPlaceHolder1_ButtonCommentPublish,
 
-/* Apfelpage.de */
+/* maclife.de */
+.shares .count,
+#maclife #comments,
+
+/* apfelpage.de */
 a[href*="#respond"],
 a[href*="#comments"],
+
+/* computerbase.de */
+.article__comments-link,
+
+/* giga.de */
+#comments+#weiterethemen,
+.comment-section,
+
+/* mdr.de */
+.modComments,
 
 /* spiegel.de */
 #spArticleFunctionForum,
@@ -642,6 +657,9 @@ body[data-guj-zone~="forum"] #postList,
 
 /* tagesspiegel.de */
 #kommentare,
+
+/* haz.de */
+.pdb-article-comments,
 
 /* welt.de */
 .o-teaser__comment-count,
@@ -678,12 +696,20 @@ body[ng-app="pdaily"] a.discussions,
 .discussion_body,
 .tabs_container li:last-child,
 
+/* tz.de */
+.id-Comment,
 
+/* piqd.de */
+.pq-comment-form-wrap,
+.rspec-comments-total,
 
 /* ...misc... */
 
+#comment_entries,
+#comment_form,
 #commentlist,
 .comments_area,
+.comments-area,
 .discussionContainer,
 .commentBoxStyle,
 .pagecomment,
