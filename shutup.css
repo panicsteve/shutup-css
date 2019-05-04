@@ -55,163 +55,121 @@ ytm-comment-section-renderer,
 #comments_container,
 
 /* CNN and other sites that use Disqus */
-
 #disqus_thread,
 #dsq-content,
 
 /* Ain't It Cool News */
-
 .block-talkback_story,
 
 /* VersionTracker */
-
 #prodReviews,
 
 /* MacUpdate */
-
 .revcontent,
 
 /* WordPress default Kubrick theme and descendents */
-
 .commentlist,
 
 /* Slashdot */
-
 #commentlisting,
 
 /* CBC News */
-
 #socialcomments,
 #commentwrapper,
 
 /* C|Net News.com */
-
 .commentwrapper,
 
 /* Reddit */
-
 .commentarea,
 
 /* Designer News */
-
 #story-comments,
 
 /* OregonLive and generic "comment" class */
-
 .comment,
 
 /* KATU */
-
 #commentform,
 
 /* Washington Post and other sites that use "commentText" divs */
-
 .commentText,
 
 /* Gannett newspapers and other sites that use Pluck */
-
 div#pluckcomments,
 
 /* Last.fm shoutbox */
-
-div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer, div#shoutbox section.shoutbox,
+div#page div#content h2#shoutbox,
+div#page div#content div#shoutboxContainer,
+div#shoutbox section.shoutbox,
 
 /* The Globe and Mail */
-
 #latest-comments,
 
 /* EW */
-
 .commentHolder,
 
-/* Unknown */
-
-.comments-list,
-#blogComments,
-#comments_pane,
-#commentcontainer,
-#commentsDiv,
-
 /* Boxee */
-
 .comment-container,
 #comment-container,
 
 /* MLB */
-
 #comment_container,
 
 /* CNN */
-
 #commentblob,
 #cnnComments,
 
 /* The Stranger */
-
 #BrowseComments, .fa-comment, .comment-count,
 
 /* Seattle Times */
-
 #showcomments,
 
 /* Crosscut */
-
 .comments__btn,
 
 /* Yahoo News */
-
 .mwpphu-comments,
 .ugccmt-comments,
 
 /* Coding Horror */
-
 .comments-body,
 
 /* seen on Reuters */
-
 .articleComments,
 
 /* nationalpost.com (Pluck) */
-
 .pluck-comm,
 
 /* KATU */
-
 .page-comments,
 
 /* DeviantArt */
-
 #gmi-CCommentMaster,
 
 /* Some blogs */
-
 .comments-container,
 
 /* Oprah */
-
 #media_comments,
 
 /* 9to5mac */
-
 #idc-container-parent,
 
 /* Livefyre */
-
 #livefyre_comment_stream,
 #livefyre-body,
 #livefyre,
 .fyre,
 
 /* PC World */
-
 #articleComments,
 
 /* Slate */
-
 .js-CommentsArea,
 
 /* NYTimes Blogs */
-
 #readerComments,
 .readerComments,
 #commentsContainer,
@@ -219,81 +177,64 @@ div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer, di
 .commentsModule,
 
 /* nytimes.com */
-
 span.postMetaHeaderCommentCount.commentCount,
 button.comments-button,
 a.commentCountLink,
 p.theme-comments,
 
 /* BBC News */
-
 .dna-comment,
 
 /* ZDNet */
-
 .view-6,
 .space-_5,
 
 /* Gamasutra */
-
 .all_comments,
 
 /* dvice.com */
-
 #display_comments,
 
 /* hp.com */
-
 .article-comments,
 
 /* unionleader.com */
-
 #commentscontainer,
 
 /* ifc.com */
-
 .echo-stream-container,
 
 /* creativereview.co.uk */
-
 #feedback,
 
 /* thenextweb.com */
-
 #lf_comments,
 #lf_twitter_comments,
 #lf_facebook_comments,
 #lf_comment_stream,
 
 /* MacWorld */
-
 #commentList,
 
 /* ft.com */
-
 #inferno-comments,
 
 /* tidbits.com */
-
 .cb_block,
 
 /* dilbert.com */
-
 .CMT_CommentList,
 
 /* Cracked */
-
 #comments_section,
 
 /* Facebook feedback */
-
 .fb-comments,
 .UFIComment,
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
 
 /* buzzfeed */
-
 #responses,
 #facebook_responses,
 #facebook_conversations,
@@ -304,81 +245,77 @@ div[data-testid^=UFI2CommentsList],
 #badge_voting,
 
 /* spiegel.de */
-
 .spCommentsBoxBody,
+#spArticleFunctionForum,
+body[data-guj-zone~="forum"] #postList,
+#js-article-comments-box-form,
+.spInteractionMarks,
+.clearfix.article-comments-box.module-box,
+
+/* handelsblatt.de */
+a[href*="detail_tab_comments"],
+.vhb-comments-container,
+
+/* handelsblatt.com */
+.hcf-article.hcf-content.hcf-article-type2,
 
 /* auto-motor-und-sport.de */
-
 .kommentare_uebersicht,
 
 /* corriere.it */
-
 #body_dlt,
 #comment_box_article,
 
 /* repubblica.it */
-
 #ugc-container,
 #gs-social-comments,
 .gig-comments-container,
 
 /* faz.net */
-
 .ArtikelKommentieren,
+.tsr-Base_ContentMetaItem-social-feedback,
+#lesermeinungen,
 
 /* Giant Bomb avatars */
-
 .comment-avatar-wrap,
 
 /* hlntv.com */
-
 .fbFeedbackContent,
 
 /* mirror.co.uk */
-
 .pluck-wrap,
 
 /* TwitPic */
-
 #media-comments,
 
 /* Guardian */
-
 #d2-root,
 
 /* E! Online */
-
 .thyme-comment-list,
 
 /* SoundCloud */
-
 .commentsList,
 .commentsList__item .commentItem,
 .commentPopover,
 
 /* Penny Arcade report */
-
 #vanilla-comments,
 
 /* Mother Nature Network */
-
 .replies-wrapper > .replies,
 .view-comment-list,
 
 /* New Jalopnik (and Gawker?) */
-
 .js_replies,
 
 /* TSN.ca */
-
 #tsnYourCallStory,
 
 /* HS.fi */
-
 #kommentit,
 
 /* NewsBlur */
-
 .NB-feed-story-comments,
 
 /* Russia Today */
@@ -407,16 +344,11 @@ section#story-community.story-community,
 #QuickRegCon,
 
 /* tagesschau.de */
+.inpagecomments,
 .modCon.modConComments,
 
 /* taz.de */
 .full.community.page.last.even,
-
-/* spiegel.de */
-.clearfix.article-comments-box.module-box,
-
-/* handelsblatt.com */
-.hcf-article.hcf-content.hcf-article-type2,
 
 /* fr-online.de */
 #commentsRoot,
@@ -424,11 +356,6 @@ section#story-community.story-community,
 
 /* huffingtonpost.de */
 #conversations-huffpost-web-main,
-
-/* tagesspiegel.de*/
-#hcf-comment-wrapper.hcf-comments,
-#commentInput.hcf-comments-input,
-.hcf-comments,
 
 /* wiwo.de */
 .hcf-detail.hcf-comments-container,
@@ -538,7 +465,6 @@ div.comments-bar,
 .comments-link-wrapper, /* nu.nl */
 
 /* investor.bg and possibly others */
-
 .comments_article,
 #comments-frame,
 
@@ -646,18 +572,11 @@ a[href*="#comments"],
 /* mdr.de */
 .modComments,
 
-/* spiegel.de */
-#spArticleFunctionForum,
-body[data-guj-zone~="forum"] #postList,
-#js-article-comments-box-form,
-.spInteractionMarks,
-
-/* faz.net */
-.tsr-Base_ContentMetaItem-social-feedback,
-#lesermeinungen,
-
 /* tagesspiegel.de */
 #kommentare,
+#hcf-comment-wrapper.hcf-comments,
+#commentInput.hcf-comments-input,
+.hcf-comments,
 
 /* haz.de */
 .pdb-article-comments,
@@ -668,13 +587,6 @@ div[data-external-component="User.Article.Likes"],
 
 /* focus.de */
 #article #commentForm,
-
-/* handelsblatt.de */
-a[href*="detail_tab_comments"],
-.vhb-comments-container,
-
-/* tagesschau.de */
-.inpagecomments,
 
 /* mopo.de */
 a[data-disqus-identifier],
@@ -704,8 +616,13 @@ body[ng-app="pdaily"] a.discussions,
 .pq-comment-form-wrap,
 .rspec-comments-total,
 
-/* ...misc... */
+/* ...misc and generic... */
 
+.comments-list,
+#blogComments,
+#comments_pane,
+#commentcontainer,
+#commentsDiv,
 #comment_entries,
 #comment_form,
 #commentlist,
