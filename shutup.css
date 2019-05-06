@@ -616,6 +616,9 @@ body[ng-app="pdaily"] a.discussions,
 .pq-comment-form-wrap,
 .rspec-comments-total,
 
+/* PressTV.com */
+#hypercomments_widget,
+
 /* ...misc and generic... */
 
 .comments-list,
