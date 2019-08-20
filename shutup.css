@@ -147,6 +147,7 @@ div#shoutbox section.shoutbox,
 
 /* DeviantArt */
 #gmi-CCommentMaster,
+div[data-hook=comments_thread],
 
 /* Some blogs */
 .comments-container,
