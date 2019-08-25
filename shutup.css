@@ -313,9 +313,6 @@ a[href*="detail_tab_comments"],
 /* TSN.ca */
 #tsnYourCallStory,
 
-/* HS.fi */
-#kommentit,
-
 /* NewsBlur */
 .NB-feed-story-comments,
 
@@ -478,9 +475,7 @@ div.comments-bar,
 
 /* iltasanomat.fi */
 .is-comments-widget,
-
-/* taloussanomat.fi */
-.xcContainer,
+#comments-list,
 
 /* MacRumors mobile site comments link */
 .teaser .teaser_footer > a,
