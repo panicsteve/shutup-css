@@ -622,6 +622,11 @@ body[ng-app="pdaily"] a.discussions,
 /* Thehindu.com */
 #vuukle-comments,
 
+/* tekstowo.pl */
+#comments_content,
+#comm_show_more,
+a[name="komentarze"],
+
 /* ...misc and generic... */
 
 .comments-list,
