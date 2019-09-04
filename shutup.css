@@ -667,9 +667,10 @@ html#Comments, body#Comments,
 /* highlight.js */
 code span.comment,
 
-/* Wikipedia revision history */
+/* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
-table.diff .comment
+table.diff .comment,
+.mw-summary-preview .comment
 
 {
 	display: initial !important;
