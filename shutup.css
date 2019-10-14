@@ -675,3 +675,10 @@ table.diff .comment,
 {
 	display: initial !important;
 }
+
+/* GitHub – Pull Request comments */
+.repository-content .comment
+
+{
+    display: block !important;
+}
