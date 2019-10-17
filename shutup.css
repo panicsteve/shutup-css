@@ -627,6 +627,9 @@ body[ng-app="pdaily"] a.discussions,
 #comm_show_more,
 a[name="komentarze"],
 
+/* Thrillist */
+.comments__spotim,
+
 /* ...misc and generic... */
 
 .comments-list,
