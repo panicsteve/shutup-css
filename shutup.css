@@ -630,6 +630,9 @@ a[name="komentarze"],
 /* Thrillist */
 .comments__spotim,
 
+/* Comments.app */
+iframe[src*="comments.app"],
+
 /* ...misc and generic... */
 
 .comments-list,
