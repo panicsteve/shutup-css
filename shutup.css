@@ -633,6 +633,9 @@ a[name="komentarze"],
 /* Comments.app */
 iframe[src*="comments.app"],
 
+/* IGN */
+iframe[src*="comments.ign.com"],
+
 /* Product Hunt */
 [class^=main] div[class^=content] div[data-test^=thread],
 
