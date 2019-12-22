@@ -499,6 +499,7 @@ ytd-live-chat-frame,
 
 /* Patreon */
 [data-test-tag="comment-row"],
+[data-tag="comment-row"],
 
 /* Instagram */
 li.gElp9:not(:first-child),
