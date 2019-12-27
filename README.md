@@ -8,11 +8,13 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 ## How do I install it on my computer?
 
-The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. Currently there are extensions for Safari, Chrome and Firefox on any operating system:
+The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. Currently there are extensions for Chrome, Firefox and Edge on any operating system:
 
-* [Shut Up for Safari](https://safari-extensions.apple.com/details/?id=net.rickyromero.shutup-TMM5P68287) by [Ricky Romero](https://rickyromero.com)
 * [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US) by [Ricky Romero](https://rickyromero.com)
 * [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/) by [Ricky Romero](https://rickyromero.com)
+* [Shut Up for Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp) by [Ricky Romero](https://rickyromero.com)
+* Shut Up for Opera by [Ricky Romero](https://rickyromero.com) (coming soon)
+* Shut Up for Safari by [Ricky Romero](https://rickyromero.com) (new version coming soon)
 
 These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
@@ -34,7 +36,7 @@ shutup.css can be used in any web browser that allows the loading of custom user
 To use shutup.css as a custom user stylesheet:
 
 1. Download the auto-updating [shutup-user-stylesheet.css](shutup-user-stylesheet.css) file to your system.*
-2. In your browser's preferences, configure your browser to use shutup-user-stylesheet.css as a custom user stylesheet. In Safari for OS X, for example, it looks something like this:
+2. In your browser's preferences, configure your browser to use shutup-user-stylesheet.css as a custom user stylesheet. In Safari for Mac, for example, it looks something like this:
 
 <img alt="Safari screenshot" src="docs/safariprefs.png" width="406" />
 
@@ -64,7 +66,9 @@ This may affect some web applications in unexpected ways. I'm told it hides the 
 
 Stylesheets like shutup.css contain no executable code, so they cannot track or spy on you.
 
-If you are using the Chrome or Safari extensions or the iOS app, it will periodically contact Ricky's web server solely to check for an update and download it if one is available. When this happens, the date and time, your IP address, and "User-Agent" string (which identifies your web browser) are logged by the web server. These logs are kept temporarily for diagnostic purposes only. The Firefox version doesn't use this update feature, [per AMO policy](https://developer.mozilla.org/en-US/Add-ons/AMO/Policy/Reviews#Policies).
+If you are using the Chrome or Edge extensions, or the iOS app, it will periodically contact Ricky's web server solely to check for an update and download it if one is available. When this happens, the date and time, your IP address, and "User-Agent" string (which identifies your web browser) are logged by the web server. These logs are kept for one week for diagnostic purposes only. Ricky doesn't share or sell your data. [Read the plain-English privacy policy here.](https://rickyromero.com/shutup/privacy/)
+
+The stylesheet is bundled with the Firefox version of the extension, so it updates from [addons.mozilla.org](https://addons.mozilla.org/) instead.
 
 ## Can I contribute to shutup.css?
 
