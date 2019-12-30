@@ -640,6 +640,12 @@ iframe[src*="comments.ign.com"],
 /* Product Hunt */
 [class^=main] div[class^=content] div[data-test^=thread],
 
+/* Le Figaro */
+#commentsTitle, #commentsTitle + ul, #commentsTitle + ul + span,
+
+/* Le Monde */
+.article__reactions,
+
 /* ...misc and generic... */
 
 .comments-list,
