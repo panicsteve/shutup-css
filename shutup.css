@@ -504,9 +504,9 @@ ytd-live-chat-frame,
 [data-tag="comment-row"],
 
 /* Instagram */
-li.gElp9:not(:first-child),
-ul.Mr508,
-li.lnrre,
+ul.Mr508, /* Detail page, all comments except OP */
+article._8Rm4L div.ybXk5, /* Feed, all comments except OP */
+article._8Rm4L a.r8ZrO, /* Feed, show comments link */
 
 /* Pixiv */
 #js-mount-point-comment-module,
