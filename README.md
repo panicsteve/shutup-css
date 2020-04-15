@@ -8,9 +8,14 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 ## How do I install it on my computer?
 
-The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. Currently there are extensions created by [Ricky Romero](https://rickyromero.com) for [Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/), [Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp) and [Opera](#installation-on-opera) on any operating system.
+The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for most browsers:
 
-These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+* [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US)
+* [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/)
+* [Shut Up for Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp)
+* [Shut Up for Opera](#installation-on-opera)
+
+These extensions by [Ricky Romero](https://rickyromero.com) automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
 If you don't want a separate extension, you can instead use the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
@@ -30,11 +35,11 @@ Though Opera has an official add-ons website, Shut Up can't be listed there due 
 
 ## How do I install it on my iPhone or iPad?
 
-You must have a 64-bit device running iOS 10 or later.
+You must have a 64-bit device running iOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up](https://itunes.apple.com/us/app/shut-up-comment-blocker/id1015043880?mt=8&amp;at=1l3vbmm) by [Ricky Romero](https://rickyromero.com)
+* [Shut Up](https://itunes.apple.com/us/app/shut-up-comment-blocker/id1015043880?mt=8&amp;at=1l3vbmm) by [Ricky Romero](https://rickyromero.com) (requires iOS 11 or later)
 * [Content Blocker+](https://geo.itunes.apple.com/us/app/content-blocker+/id1040960141?mt=8&amp;at=1l3vbmm) by Dynamic App Design LLC
 
 ## Do I have to use an extension or plug-in?
