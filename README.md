@@ -8,25 +8,38 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 ## How do I install it on my computer?
 
-The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. Currently there are extensions for Chrome, Firefox and Edge on any operating system:
+The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for most browsers:
 
-* [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US) by [Ricky Romero](https://rickyromero.com)
-* [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/) by [Ricky Romero](https://rickyromero.com)
-* [Shut Up for Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp) by [Ricky Romero](https://rickyromero.com)
-* Shut Up for Opera by [Ricky Romero](https://rickyromero.com) (coming soon)
-* Shut Up for Safari by [Ricky Romero](https://rickyromero.com) (new version coming soon)
+* [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US)
+* [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/)
+* [Shut Up for Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp)
+* [Shut Up for Opera](#installation-on-opera)
 
-These official browser extensions automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+These extensions by [Ricky Romero](https://rickyromero.com) automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
 If you don't want a separate extension, you can instead use the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
+A new version for Safari on macOS will be available soon.
+
+### Installation on Opera
+
+Shut Up works well on Opera, but you have to install it from the Chrome Web Store. Here's how:
+
+1. Go to [the page for Shut Up on the Chrome Web Store](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US).
+2. Click the "Install Extension" button that appears under the address bar.
+3. After the page reloads, click the "Add to Opera" button.
+4. Dismiss the compatibility notice, which takes you to Opera's settings page for Shut Up.
+5. Click the Install button.
+
+Though Opera has an official add-ons website, Shut Up can't be listed there due to months-long approval cycles.
+
 ## How do I install it on my iPhone or iPad?
 
-You must have a 64-bit device running iOS 10 or later.
+You must have a 64-bit device running iOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up](https://itunes.apple.com/us/app/shut-up-comment-blocker/id1015043880?mt=8&amp;at=1l3vbmm) by [Ricky Romero](https://rickyromero.com)
+* [Shut Up](https://itunes.apple.com/us/app/shut-up-comment-blocker/id1015043880?mt=8&amp;at=1l3vbmm) by [Ricky Romero](https://rickyromero.com) (requires iOS 11 or later)
 * [Content Blocker+](https://geo.itunes.apple.com/us/app/content-blocker+/id1040960141?mt=8&amp;at=1l3vbmm) by Dynamic App Design LLC
 
 ## Do I have to use an extension or plug-in?
