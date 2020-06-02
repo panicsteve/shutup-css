@@ -703,6 +703,7 @@ div.detail-characters-list ~ div.borderDark,
 .post-comments,
 .post-comment-list,
 .user_comment,
+.widget-comments,
 #cmtWrapper
 {
 	display: none !important;
