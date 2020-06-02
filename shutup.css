@@ -671,16 +671,16 @@ div.pod-body.review,
 div.detail-characters-list ~ div.borderDark,
 
 /* rule34.xxx */
-.content img ~ a#ci ~ div[id^=c0],
-.content img ~ a#ci ~ div[id^=c1],
-.content img ~ a#ci ~ div[id^=c2],
-.content img ~ a#ci ~ div[id^=c3],
-.content img ~ a#ci ~ div[id^=c4],
-.content img ~ a#ci ~ div[id^=c5],
-.content img ~ a#ci ~ div[id^=c6],
-.content img ~ a#ci ~ div[id^=c7],
-.content img ~ a#ci ~ div[id^=c8],
-.content img ~ a#ci ~ div[id^=c9],
+.content form ~ a#ci ~ div[id^=c0],
+.content form ~ a#ci ~ div[id^=c1],
+.content form ~ a#ci ~ div[id^=c2],
+.content form ~ a#ci ~ div[id^=c3],
+.content form ~ a#ci ~ div[id^=c4],
+.content form ~ a#ci ~ div[id^=c5],
+.content form ~ a#ci ~ div[id^=c6],
+.content form ~ a#ci ~ div[id^=c7],
+.content form ~ a#ci ~ div[id^=c8],
+.content form ~ a#ci ~ div[id^=c9],
 
 /* ...misc and generic... */
 
