@@ -236,7 +236,7 @@ fb\:comments,
 div[data-testid^=UFI2CommentsList],
 /* new facebook beta look */
 [aria-label^="Comment"],
-[aria-label^="Reply"]
+[aria-label^="Reply"],
 
 /* buzzfeed */
 #responses,
