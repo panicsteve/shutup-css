@@ -401,12 +401,6 @@ div.comments-bar,
 /* lefigaro.fr */
 #reagir,
 
-/* rue89.nouvelobs.com */
-#commentaires,
-
-/* numerama.com */
-.commentaires,
-
 /* huffingtonpost.fr */
 #conversations-huffpost-web,
 
@@ -684,6 +678,8 @@ div.detail-characters-list ~ div.borderDark,
 
 /* ...misc and generic... */
 
+[id*=commentaires i],
+[class*=commentaires i],
 .comments-list,
 #blogComments,
 #comments_pane,
