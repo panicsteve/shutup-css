@@ -8,7 +8,7 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 ## How do I install it on my computer?
 
-The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for most browsers:
+The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for all mainstream browsers:
 
 * [Shut Up for Chrome][ext-chrome]
 * [Shut Up for Safari][ext-safari] (macOS and iOS)
@@ -16,7 +16,7 @@ The simplest way to use shutup.css on a conventional desktop or laptop computer 
 * [Shut Up for Edge][ext-edge]
 * [Shut Up for Opera][ext-opera]
 
-These extensions by [Ricky Romero][ricky-site] automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+These extensions by [Ricky Romero][site-ricky] automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
 If you don't want a separate extension, you can instead use the [Stylish][stylish-plugin] plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
@@ -38,8 +38,8 @@ You must have a 64-bit device running iOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up][ext-safari] by [Ricky Romero][ricky-site] (requires iOS 11 or later)
-* [Content Blocker+][content-blocker-plus] by [Dynamic App Design LLC][dynamic-app-design]
+* [Shut Up][ext-safari] by [Ricky Romero][site-ricky] (requires iOS 11 or later)
+* [Content Blocker+][content-blocker-plus] by [Dynamic App Design LLC][site-dynamic-app-design]
 
 ## How do I install it on an Android device?
 
@@ -86,11 +86,12 @@ The official browser extensions by Ricky Romero are designed to protect your pri
 
 ## Can I contribute to shutup.css?
 
-Sure! You can [send me a pull request on GitHub][pull-request]. If you speak CSS but not Git, just email me your proposed changes.
+Sure! You can [send me a pull request on GitHub][css-pull-request]. If you speak CSS but not Git, just [email me][email-steven] your proposed changes.
 
 ## How do I contact you?
 
 You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stevenf][twitter-steven].
+
 
 
 [ext-chrome]: https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US  (Shut Up on the Chrome Web Store)
@@ -100,23 +101,17 @@ You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stev
 [ext-opera]: #installation-on-opera  (Installation on Opera)
 [ext-privacy]: https://rickyromero.com/shutup/privacy/  (Shut Up Privacy Policy)
 
-[content-blocker-plus]: https://apps.apple.com/app/id1040960141  (Content Blocker+)
-[dynamic-app-design]: http://dynamicappdesign.com  (Dynamic App Design LLC)
-[stylish-plugin]: https://userstyles.org/  (Stylish Plugin)
-
 [css-main]: shutup.css  (Main Stylesheet)
 [css-user]: shutup-user-stylesheet.css  (User Stylesheet)
 [css-about]: https://en.wikipedia.org/wiki/Style_sheet_(web_development)  ("Style sheet" on Wikipedia)
-[pull-request]: https://github.com/panicsteve/shutup-css/edit/master/shutup.css  (Submit a Pull Request for shutup.css)
+[css-pull-request]: https://github.com/panicsteve/shutup-css/edit/master/shutup.css  (Submit a Pull Request for shutup.css)
 
 [site-steven]: https://stevenf.com  (Steven Frank's personal website)
+[site-ricky]: https://rickyromero.com  (Ricky Romero's personal website)
+[site-dynamic-app-design]: http://dynamicappdesign.com  (Dynamic App Design LLC)
+
 [email-steven]: mailto:stevenf@panic.com  (Steven Frank's email address)
 [twitter-steven]: https://twitter.com/stevenf/  (Steven Frank's Twitter profile)
-[site-ricky]: https://rickyromero.com  (Ricky Romero's personal website)
 
-
-
-
-
-
-
+[content-blocker-plus]: https://apps.apple.com/app/id1040960141  (Content Blocker+)
+[stylish-plugin]: https://userstyles.org/  (Stylish Plugin)
