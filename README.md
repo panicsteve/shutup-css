@@ -1,6 +1,6 @@
 ## shutup.css
 
-shutup.css is a CSS stylesheet ([?](https://en.wikipedia.org/wiki/Style_sheet_(web_development))) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank](https://twitter.com/stevenf/) and [Ricky Romero](https://rickyromero.com).
+shutup.css is a CSS stylesheet ([?][css-about]) that can be applied to your web browser to hide comment sections on many popular websites. It is maintained by [Steven Frank][site-steven] and [Ricky Romero][site-ricky].
 
 ## Why would I use it?
 
@@ -10,22 +10,21 @@ Some people feel that website comments are an annoyance or distraction from the 
 
 The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for most browsers:
 
-* [Shut Up for Chrome](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US)
-* [Shut Up for Firefox](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/)
-* [Shut Up for Edge](https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp)
-* [Shut Up for Opera](#installation-on-opera)
+* [Shut Up for Chrome][ext-chrome]
+* [Shut Up for Safari][ext-safari] (macOS and iOS)
+* [Shut Up for Firefox][ext-firefox]
+* [Shut Up for Edge][ext-edge]
+* [Shut Up for Opera][ext-opera]
 
-These extensions by [Ricky Romero](https://rickyromero.com) automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+These extensions by [Ricky Romero][ricky-site] automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
-If you don't want a separate extension, you can instead use the [Stylish](https://userstyles.org/) plug-in, in combination with the raw shutup.css stylesheet (detailed below).
-
-A new version for Safari on macOS will be available soon.
+If you don't want a separate extension, you can instead use the [Stylish][stylish-plugin] plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
 ### Installation on Opera
 
 Shut Up works well on Opera, but you have to install it from the Chrome Web Store. Here's how:
 
-1. Go to [the page for Shut Up on the Chrome Web Store](https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US).
+1. Go to [the page for Shut Up on the Chrome Web Store][ext-chrome].
 2. Click the "Install Extension" button that appears under the address bar.
 3. After the page reloads, click the "Add to Opera" button.
 4. Dismiss the compatibility notice, which takes you to Opera's settings page for Shut Up.
@@ -39,8 +38,12 @@ You must have a 64-bit device running iOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up](https://itunes.apple.com/us/app/shut-up-comment-blocker/id1015043880?mt=8&amp;at=1l3vbmm) by [Ricky Romero](https://rickyromero.com) (requires iOS 11 or later)
-* [Content Blocker+](https://geo.itunes.apple.com/us/app/content-blocker+/id1040960141?mt=8&amp;at=1l3vbmm) by Dynamic App Design LLC
+* [Shut Up][ext-safari] by [Ricky Romero][ricky-site] (requires iOS 11 or later)
+* [Content Blocker+][content-blocker-plus] by [Dynamic App Design LLC][dynamic-app-design]
+
+## How do I install it on an Android device?
+
+Firefox on Android can run add-ons. Simply use [the official Shut Up extension for Firefox][ext-firefox].
 
 ## Do I have to use an extension or plug-in?
 
@@ -48,7 +51,7 @@ shutup.css can be used in any web browser that allows the loading of custom user
 
 To use shutup.css as a custom user stylesheet:
 
-1. Download the auto-updating [shutup-user-stylesheet.css](shutup-user-stylesheet.css) file to your system.*
+1. Download the auto-updating [shutup-user-stylesheet.css][css-user] file to your system.*
 2. In your browser's preferences, configure your browser to use shutup-user-stylesheet.css as a custom user stylesheet. In Safari for Mac, for example, it looks something like this:
 
 <img alt="Safari screenshot" src="docs/safariprefs.png" width="406" />
@@ -57,7 +60,7 @@ After selecting "Other..." from the pop-up menu, select the shutup-user-styleshe
 
 If you make changes to the stylesheet, or download a new version of shutup.css, you may need to quit and restart your browser to make sure it takes effect.
 
-**If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version](shutup.css) instead, but you will have to occasionally update this file manually.*
+**If you don't trust a remotely-imported CSS file being applied to every web page you see, or if you want to make additional customizations, you can [download the most recent non-updating version][css-main] instead, but you will have to occasionally update this file manually.*
 
 ## How about a bookmarklet instead?
 
@@ -79,14 +82,41 @@ This may affect some web applications in unexpected ways. I'm told it hides the 
 
 Stylesheets like shutup.css contain no executable code, so they cannot track or spy on you.
 
-If you are using the Chrome or Edge extensions, or the iOS app, it will periodically contact Ricky's web server solely to check for an update and download it if one is available. When this happens, the date and time, your IP address, and "User-Agent" string (which identifies your web browser) are logged by the web server. These logs are kept for one week for diagnostic purposes only. Ricky doesn't share or sell your data. [Read the plain-English privacy policy here.](https://rickyromero.com/shutup/privacy/)
-
-The stylesheet is bundled with the Firefox version of the extension, so it updates from [addons.mozilla.org](https://addons.mozilla.org/) instead.
+The official browser extensions by Ricky Romero are designed to protect your privacy. None of these extensions track or spy on your browsing activity. They all have similar features, but differ in how they integrate with your browser. Most of these extensions have a built-in update mechanism for shutup.css. [Read the plain-English privacy policy here][ext-privacy] for info specific to your browser.
 
 ## Can I contribute to shutup.css?
 
-Sure! You can [send me a pull request on GitHub](https://github.com/panicsteve/shutup-css/edit/master/shutup.css). If you speak CSS but not Git, just email me your proposed changes.
+Sure! You can [send me a pull request on GitHub][pull-request]. If you speak CSS but not Git, just email me your proposed changes.
 
 ## How do I contact you?
 
-You can contact me at [stevenf@panic.com](mailto:stevenf@panic.com), or on Twitter as [@stevenf](https://twitter.com/stevenf/).
+You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stevenf][twitter-steven].
+
+
+[ext-chrome]: https://chrome.google.com/webstore/detail/oklfoejikkmejobodofaimigojomlfim?hl=en-US&amp;gl=US  (Shut Up on the Chrome Web Store)
+[ext-safari]: https://apps.apple.com/app/id1015043880  (Shut Up on the App Store)
+[ext-firefox]: https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/  (Shut Up at Firefox Add-ons)
+[ext-edge]: https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp  (Shut Up at Edge Add-ons)
+[ext-opera]: #installation-on-opera  (Installation on Opera)
+[ext-privacy]: https://rickyromero.com/shutup/privacy/  (Shut Up Privacy Policy)
+
+[content-blocker-plus]: https://apps.apple.com/app/id1040960141  (Content Blocker+)
+[dynamic-app-design]: http://dynamicappdesign.com  (Dynamic App Design LLC)
+[stylish-plugin]: https://userstyles.org/  (Stylish Plugin)
+
+[css-main]: shutup.css  (Main Stylesheet)
+[css-user]: shutup-user-stylesheet.css  (User Stylesheet)
+[css-about]: https://en.wikipedia.org/wiki/Style_sheet_(web_development)  ("Style sheet" on Wikipedia)
+[pull-request]: https://github.com/panicsteve/shutup-css/edit/master/shutup.css  (Submit a Pull Request for shutup.css)
+
+[site-steven]: https://stevenf.com  (Steven Frank's personal website)
+[email-steven]: mailto:stevenf@panic.com  (Steven Frank's email address)
+[twitter-steven]: https://twitter.com/stevenf/  (Steven Frank's Twitter profile)
+[site-ricky]: https://rickyromero.com  (Ricky Romero's personal website)
+
+
+
+
+
+
+
