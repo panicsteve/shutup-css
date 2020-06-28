@@ -11,12 +11,14 @@ Some people feel that website comments are an annoyance or distraction from the 
 The simplest way to use shutup.css on a conventional desktop or laptop computer is with a browser extension. There are official extensions available for all mainstream browsers:
 
 * [Shut Up for Chrome][ext-chrome]
-* [Shut Up for Safari][ext-safari] (macOS and iOS)
+* [Shut Up for Safari][ext-safari] (Shared link for macOS, iOS, and iPadOS)
 * [Shut Up for Firefox][ext-firefox]
 * [Shut Up for Edge][ext-edge]
 * [Shut Up for Opera][ext-opera]
 
 These extensions by [Ricky Romero][site-ricky] automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+
+Shut Up for Safari on macOS requires macOS Sierra or later.
 
 If you don't want a separate extension, you can instead use the [Stylish][stylish-plugin] plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
@@ -34,11 +36,11 @@ Though Opera has an official add-ons website, Shut Up can't be listed there due 
 
 ## How do I install it on my iPhone or iPad?
 
-You must have a 64-bit device running iOS 9 or later.
+You must have a 64-bit device running iOS/iPadOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up][ext-safari] by [Ricky Romero][site-ricky] (requires iOS 11 or later)
+* [Shut Up][ext-safari] by [Ricky Romero][site-ricky] (Shared link for macOS, iOS, and iPadOS. Requires iOS/iPadOS 11 or later)
 * [Content Blocker+][content-blocker-plus] by [Dynamic App Design LLC][site-dynamic-app-design]
 
 ## How do I install it on an Android device?
