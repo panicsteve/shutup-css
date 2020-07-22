@@ -723,8 +723,9 @@ html.Comments, body.Comments,
 html#comments, body#comments,
 html#Comments, body#Comments,
 
-/* highlight.js */
+/* highlight.js and Prism */
 code span.comment,
+pre span.comment,
 
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
