@@ -45,7 +45,7 @@ The following content blocker apps include shutup.css:
 
 ## How do I install it on an Android device?
 
-Shut Up was previously available for Firefox on Android. However, the most recent update (as of late August 2020) [removed compatibility with almost all Firefox extensions][ext-android-shitshow1]. [Please tell Mozilla what you think of these changes.][ext-android-shitshow2]
+Shut Up was previously available for Firefox on Android. However, the most recent update (as of late August 2020) [removed compatibility with almost all Firefox extensions][android-shitshow1]. [Please tell Mozilla what you think of these changes.][android-shitshow2]
 
 ## Do I have to use an extension or plug-in?
 
