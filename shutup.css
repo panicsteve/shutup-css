@@ -723,6 +723,9 @@ html.Comments, body.Comments,
 html#comments, body#comments,
 html#Comments, body#Comments,
 
+/* City Observatory's "City Commentary" posts */
+body > div.content.comments,
+
 /* highlight.js and Prism */
 code span.comment,
 pre span.comment,
