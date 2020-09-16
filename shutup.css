@@ -712,7 +712,7 @@ div.detail-characters-list ~ div.borderDark,
 }
 
 
-/* *** Whitelist rules *** */
+/* *** Allowlist rules *** */
 
 /*
  * Some pages use a comments class on the top level element,
