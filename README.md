@@ -40,7 +40,7 @@ You must have a 64-bit device running iOS/iPadOS 9 or later.
 
 The following content blocker apps include shutup.css:
 
-* [Shut Up][ext-safari] by [Ricky Romero][site-ricky] (Shared link for macOS, iOS, and iPadOS. Requires iOS/iPadOS 11 or later)
+* [Shut Up][ext-safari] by [Ricky Romero][site-ricky] (Shared link for macOS, iOS, and iPadOS. Requires iOS/iPadOS 12 or later)
 * [Content Blocker+][content-blocker-plus] by [Dynamic App Design LLC][site-dynamic-app-design]
 
 ## How do I install it on an Android device?
