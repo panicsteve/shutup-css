@@ -666,7 +666,13 @@ div.pod-body.review,
 /* MyAnimeList */
 div.detail-characters-list ~ div.borderDark,
 
-/* rule34.xxx */
+/* teltarif.de */
+#LxComments,
+
+/* gazeta.pl */
+.commentsApp,
+
+/* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
 .content form ~ a#ci ~ div[id^=c2],
@@ -677,9 +683,7 @@ div.detail-characters-list ~ div.borderDark,
 .content form ~ a#ci ~ div[id^=c7],
 .content form ~ a#ci ~ div[id^=c8],
 .content form ~ a#ci ~ div[id^=c9],
-
-/* teltarif.de */
-#LxComments,
+#cdiv.gm,
 
 /* ...misc and generic... */
 
@@ -706,6 +710,7 @@ div.detail-characters-list ~ div.borderDark,
 .post-comment-list,
 .user_comment,
 .widget-comments,
+.commentBox,
 #cmtWrapper
 {
 	display: none !important;
@@ -725,8 +730,8 @@ html#Comments, body#Comments,
 
 /* City Observatory's "City Commentary" posts */
 body.post-template-default.category-commentary
-  > div.header:first-child
-  + div.content.comments,
+	> div.header:first-child
+	+ div.content.comments,
 
 /* highlight.js and Prism */
 code span.comment,
@@ -745,5 +750,5 @@ table.diff .comment,
 .repository-content .comment
 
 {
-    display: block !important;
+	display: block !important;
 }
