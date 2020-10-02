@@ -34,7 +34,6 @@
  */
 
 /* YouTube */
-
 #watch-comment-panel,
 #cm,
 #watch-comments-core,
@@ -42,21 +41,23 @@
 #comments-test-iframe,
 ytm-comment-section-renderer,
 
+/* Disqus */
+a[data-disqus-identifier],
+iframe[src*="disqus.com/embed"],
+body [id*=disqus i],
+body [class*=disqus i],
+#dsq-content,
+
 /*
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
  * a different animal)
 */
-
 .comments:not(code),
 .Comments:not(code),
 #comments:not(code),
 #Comments:not(code),
 #comments_container,
-
-/* CNN and other sites that use Disqus */
-#disqus_thread,
-#dsq-content,
 
 /* Ain't It Cool News */
 .block-talkback_story,
@@ -593,9 +594,6 @@ div[data-external-component="User.Article.Likes"],
 /* focus.de */
 #article #commentForm,
 
-/* mopo.de */
-a[data-disqus-identifier],
-
 /* t-online.de */
 #talk_community,
 
@@ -688,8 +686,8 @@ div.detail-characters-list ~ div.borderDark,
 
 /* ...misc and generic... */
 
-[id*=commentaires i],
-[class*=commentaires i],
+body [id*=commentaires i],
+body [class*=commentaires i],
 .comments-list,
 #blogComments,
 #comments_pane,
