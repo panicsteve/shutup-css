@@ -45,14 +45,9 @@ body [id*=disqus i],
 body [class*=disqus i],
 #dsq-content,
 
-/* Ain't It Cool News */
-.block-talkback_story,
-
-/* VersionTracker */
-#prodReviews,
-
-/* MacUpdate */
-.revcontent,
+/* spot.im/OpenWeb */
+body [id*=spotim i],
+body [class*=spotim i],
 
 /* Last.fm shoutbox */
 div#page div#content h2#shoutbox,
@@ -82,9 +77,6 @@ div[data-hook=comments_thread],
 
 /* creativereview.co.uk */
 #feedback,
-
-/* tidbits.com */
-.cb_block,
 
 /* Facebook feedback */
 fb\:comments,
@@ -121,23 +113,14 @@ a[href*="detail_tab_comments"],
 .tsr-Base_ContentMetaItem-social-feedback,
 #lesermeinungen,
 
-/* hlntv.com */
-.fbFeedbackContent,
-
 /* mirror.co.uk */
 .pluck-wrap,
 
-/* Guardian */
-#d2-root,
-
-/* Mother Nature Network */
+/* Treehugger */
 .replies-wrapper > .replies,
 
 /* New Jalopnik (and Gawker?) */
 .js_replies,
-
-/* TSN.ca */
-#tsnYourCallStory,
 
 /* derstandard.at */
 .communityCanvas,
@@ -164,43 +147,20 @@ section#story-community.story-community,
 /* lefigaro.fr */
 #reagir,
 
-/* Engadget (Confab) */
-.confab,
-
 /* NAVER News */
 #cbox_module,
 
 /* DAUM News */
 .cmt_view,
 
-/* Radio-Canada */
-.viafoura,
-
 /* Medium */
-.responsesWrapper,
-.responsesStreamWrapper,
-
-/* G1 and Globo */
-#boxComentarios,
-
-/* UOL */
-#comentarios,
-
-/* Veja */
-.abril-comentarios-widget,
+div#root > div.a.b.c article ~ div div + div + button,
 
 /* VK */
 .replies_wrap > div:first-child,
 
-/* Dutch language websites, including nu.nl and tweakers.net */
-.reacties,
-#reacties,
-
 /* MacRumors mobile site comments link */
 .teaser .teaser_footer > a,
-
-/* USgamer paragraph comment buttons */
-a.button.annotation-count,
 
 /* Twitch Chat */
 #right-column .chat-room,
@@ -233,6 +193,9 @@ div#root div.jUvQSR,
 
 /* HLTV */
 .contentCol .forum,
+
+/* Times of India */
+.cmtwrapper,
 
 /* Sydney Morning Herald (and possibly others) */
 iframe[src*="ffx.io/api/comments"],
@@ -342,7 +305,13 @@ body [id*=commentaire i]:not(code),
 body [class*=commentaire i]:not(code),
 /* German */
 body [id*=kommentare i]:not(code),
-body [class*=kommentare i]:not(code)
+body [class*=kommentare i]:not(code),
+/* Spanish, Portuguese */
+body [id*=comentario i]:not(code),
+body [class*=comentario i]:not(code),
+/* Dutch */
+body [id*=reacties i],
+body [class*=reacties i]
 {
 	display: none !important;
 }
@@ -368,6 +337,9 @@ table.diff .comment,
 {
 	display: initial !important;
 }
+
+/* VK */
+#page_wall_posts .closed_comments,
 
 /* GitHub - Pull Request comments */
 .repository-content .comment
