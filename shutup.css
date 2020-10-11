@@ -330,6 +330,9 @@ body.post-template-default.category-commentary
 code span.comment,
 pre span.comment,
 
+/* The Guardian */
+[class*=tonal][class*=comment],
+
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
 table.diff .comment,
