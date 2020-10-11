@@ -82,8 +82,8 @@ div[data-hook=comments_thread],
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
 /* new facebook beta look */
-[aria-label^="Comment"],
-[aria-label^="Reply"],
+[data-pagelet*="FeedUnit"] [aria-label^="Comment"],
+[data-pagelet*="FeedUnit"] [aria-label^="Reply"],
 
 /* buzzfeed */
 #responses,
@@ -329,6 +329,9 @@ body.post-template-default.category-commentary
 /* highlight.js and Prism */
 code span.comment,
 pre span.comment,
+
+/* The Guardian */
+[class*=tonal][class*=comment],
 
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
