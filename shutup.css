@@ -344,6 +344,9 @@ table.diff .comment,
 /* VK */
 #page_wall_posts .closed_comments,
 
+/* Nextcloud file listing */
+[id*="app-content"].has-comments,
+
 /* GitHub - Pull Request comments */
 .repository-content .comment
 {
