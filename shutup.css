@@ -712,7 +712,7 @@ body [class*=commentaires i],
 .commentBox,
 #cmtWrapper
 {
-  display: none !important;
+	display: none !important;
 }
 
 
@@ -729,8 +729,8 @@ html#Comments, body#Comments,
 
 /* City Observatory's "City Commentary" posts */
 body.post-template-default.category-commentary
-  > div.header:first-child
-  + div.content.comments,
+	> div.header:first-child
+	+ div.content.comments,
 
 /* highlight.js and Prism */
 code span.comment,
@@ -742,12 +742,12 @@ table.diff .comment,
 .mw-summary-preview .comment
 
 {
-  display: initial !important;
+	display: initial !important;
 }
 
 /* GitHub - Pull Request comments */
 .repository-content .comment
 
 {
-  display: block !important;
+	display: block !important;
 }
