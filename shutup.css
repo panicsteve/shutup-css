@@ -716,6 +716,7 @@ body [class*=commentaires i],
 }
 
 
+
 /* *** Allowlist rules *** */
 
 /*
@@ -732,9 +733,6 @@ body.post-template-default.category-commentary
 	> div.header:first-child
 	+ div.content.comments,
 
-/* Fimfiction */
-.group-page > .group > div[data-thread-id] .comment,
-
 /* highlight.js and Prism */
 code span.comment,
 pre span.comment,
@@ -747,6 +745,17 @@ table.diff .comment,
 {
 	display: initial !important;
 }
+
+
+
+/* Fimfiction */
+.group-page > .group > div[data-thread-id] .comment
+
+{
+  display: table !important;
+}
+
+
 
 /* GitHub - Pull Request comments */
 .repository-content .comment
