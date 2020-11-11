@@ -732,6 +732,9 @@ body.post-template-default.category-commentary
 	> div.header:first-child
 	+ div.content.comments,
 
+/* Fimfiction */
+.group-page > .group > div[data-thread-id] .comment,
+
 /* highlight.js and Prism */
 code span.comment,
 pre span.comment,
