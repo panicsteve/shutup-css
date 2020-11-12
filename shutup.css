@@ -749,7 +749,8 @@ table.diff .comment,
 
 
 /* Fimfiction */
-.group-page > .group > div[data-thread-id] .comment
+.group-page > .group > div[data-thread-id] .comment,
+body > div#dimmers + .quote_container .comment
 
 {
   display: table !important;
