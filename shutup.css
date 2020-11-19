@@ -370,14 +370,12 @@ section#story-community.story-community,
 .hcf-detail.hcf-comments-container,
 
 /* arstechnica.com */
-
 section#promoted-comments,
 aside.comments-hotness,
 a.comment-count,
 div.comments-bar,
 
 /* trakt.tv */
-
 .summary-comments,
 
 /* Kotaku */
@@ -691,8 +689,7 @@ div.detail-characters-list ~ div.borderDark,
 .content form ~ a#ci ~ div[id^=c9],
 #cdiv.gm,
 
-/* ...misc and generic... */
-
+/* *** Generic *** */
 body [id*=commentaires i],
 body [class*=commentaires i],
 .comments-list,
@@ -748,7 +745,6 @@ pre span.comment,
 #pagehistory .comment,
 table.diff .comment,
 .mw-summary-preview .comment
-
 {
 	display: initial !important;
 }
@@ -758,7 +754,6 @@ table.diff .comment,
 /* Fimfiction */
 .group-page > .group > div[data-thread-id] .comment,
 body > div#dimmers + .quote_container .comment
-
 {
   display: table !important;
 }
@@ -767,7 +762,6 @@ body > div#dimmers + .quote_container .comment
 
 /* GitHub - Pull Request comments */
 .repository-content .comment
-
 {
 	display: block !important;
 }
