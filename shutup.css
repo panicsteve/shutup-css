@@ -48,6 +48,12 @@ body [id*=disqus i],
 body [class*=disqus i],
 #dsq-content,
 
+/* spot.im AKA OpenWeb */
+body [id*=spotim i],
+body [id*=spot-im i],
+body [class*=spotim i],
+body [class*=spot-im i],
+
 /*
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
@@ -93,9 +99,6 @@ body [class*=disqus i],
 /* KATU */
 #commentform,
 
-/* Washington Post and other sites that use "commentText" divs */
-.commentText,
-
 /* Gannett newspapers and other sites that use Pluck */
 div#pluckcomments,
 
@@ -135,7 +138,7 @@ div#shoutbox section.shoutbox,
 .ugccmt-comments,
 
 /* Coding Horror */
-.comments-body,
+#discourse-comments,
 
 /* seen on Reuters */
 .articleComments,
@@ -229,17 +232,14 @@ p.theme-comments,
 /* dilbert.com */
 .CMT_CommentList,
 
-/* Cracked */
-#comments_section,
-
 /* Facebook feedback */
 .fb-comments,
 .UFIComment,
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
 /* new facebook beta look */
-[aria-label^="Comment"],
-[aria-label^="Reply"],
+[data-pagelet*="FeedUnit"] [aria-label^="Comment"],
+[data-pagelet*="FeedUnit"] [aria-label^="Reply"],
 
 /* buzzfeed */
 #responses,
@@ -309,7 +309,7 @@ a[href*="detail_tab_comments"],
 /* Penny Arcade report */
 #vanilla-comments,
 
-/* Mother Nature Network */
+/* Treehugger */
 .replies-wrapper > .replies,
 .view-comment-list,
 
@@ -366,14 +366,12 @@ section#story-community.story-community,
 .hcf-detail.hcf-comments-container,
 
 /* arstechnica.com */
-
 section#promoted-comments,
 aside.comments-hotness,
 a.comment-count,
 div.comments-bar,
 
 /* trakt.tv */
-
 .summary-comments,
 
 /* Kotaku */
@@ -381,7 +379,8 @@ div.comments-bar,
 .post-content .annotateButton,
 
 /* imgur */
-#comments-container,
+.CommentsList,
+.Gallery-CommentsCounter,
 
 /* Curbed */
 .post-comments-module,
@@ -441,6 +440,7 @@ div.comments-bar,
 /* Medium */
 .responsesWrapper,
 .responsesStreamWrapper,
+div#root > div.a.b.c article ~ div div + div + button,
 
 /* G1 and Globo */
 #boxComentarios,
@@ -533,6 +533,7 @@ div#root div.jUvQSR,
 /* Times of India */
 .topcomment,
 .bottom-comments,
+.cmtwrapper,
 
 /* Sydney Morning Herald (and possibly others) */
 iframe[src*="ffx.io/api/comments"],
@@ -572,7 +573,7 @@ a[href*="#comments"],
 .article__comments-link,
 
 /* giga.de */
-#comments+#weiterethemen,
+#comments + #weiterethemen,
 .comment-section,
 
 /* mdr.de */
@@ -671,6 +672,17 @@ div.detail-characters-list ~ div.borderDark,
 /* gazeta.pl */
 .commentsApp,
 
+/* AppleInsider */
+.comment-section-head,
+.comment-section-head ~ .forum-comment,
+
+/* metro.co.uk */
+#metro-comments-area,
+
+/* Bandcamp */
+.deets.populated > .writing,
+.spotlight-unit .item-desc,
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -684,8 +696,7 @@ div.detail-characters-list ~ div.borderDark,
 .content form ~ a#ci ~ div[id^=c9],
 #cdiv.gm,
 
-/* ...misc and generic... */
-
+/* *** Generic *** */
 body [id*=commentaires i],
 body [class*=commentaires i],
 .comments-list,
@@ -697,6 +708,7 @@ body [class*=commentaires i],
 #comment_form,
 #commentlist,
 #user-comments,
+#user_commeent_section,
 .comments_area,
 .comments-area,
 .discussionContainer,
@@ -710,6 +722,9 @@ body [class*=commentaires i],
 .user_comment,
 .widget-comments,
 .commentBox,
+.commentText,
+.comments-wrap,
+#comments-wrapper,
 #cmtWrapper
 {
 	display: none !important;
@@ -717,7 +732,7 @@ body [class*=commentaires i],
 
 
 
-/* *** Allowlist rules *** */
+/* *** Exceptions *** */
 
 /*
  * Some pages use a comments class on the top level element,
@@ -741,7 +756,6 @@ pre span.comment,
 #pagehistory .comment,
 table.diff .comment,
 .mw-summary-preview .comment
-
 {
 	display: initial !important;
 }
@@ -751,7 +765,6 @@ table.diff .comment,
 /* Fimfiction */
 .group-page > .group > div[data-thread-id] .comment,
 body > div#dimmers + .quote_container .comment
-
 {
   display: table !important;
 }
@@ -760,7 +773,6 @@ body > div#dimmers + .quote_container .comment
 
 /* GitHub - Pull Request comments */
 .repository-content .comment
-
 {
 	display: block !important;
 }
