@@ -48,6 +48,10 @@ body [id*=disqus i],
 body [class*=disqus i],
 #dsq-content,
 
+/* spot.im AKA OpenWeb */
+body [id*=spotim i],
+body [class*=spotim i],
+
 /*
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
@@ -309,7 +313,7 @@ a[href*="detail_tab_comments"],
 /* Penny Arcade report */
 #vanilla-comments,
 
-/* Mother Nature Network */
+/* Treehugger */
 .replies-wrapper > .replies,
 .view-comment-list,
 
@@ -441,6 +445,7 @@ div.comments-bar,
 /* Medium */
 .responsesWrapper,
 .responsesStreamWrapper,
+div#root > div.a.b.c article ~ div div + div + button,
 
 /* G1 and Globo */
 #boxComentarios,
@@ -533,6 +538,7 @@ div#root div.jUvQSR,
 /* Times of India */
 .topcomment,
 .bottom-comments,
+.cmtwrapper,
 
 /* Sydney Morning Herald (and possibly others) */
 iframe[src*="ffx.io/api/comments"],
@@ -572,7 +578,7 @@ a[href*="#comments"],
 .article__comments-link,
 
 /* giga.de */
-#comments+#weiterethemen,
+#comments + #weiterethemen,
 .comment-section,
 
 /* mdr.de */
@@ -717,7 +723,7 @@ body [class*=commentaires i],
 
 
 
-/* *** Allowlist rules *** */
+/* *** Exceptions *** */
 
 /*
  * Some pages use a comments class on the top level element,
