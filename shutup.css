@@ -233,9 +233,6 @@ p.theme-comments,
 /* dilbert.com */
 .CMT_CommentList,
 
-/* Cracked */
-#comments_section,
-
 /* Facebook feedback */
 .fb-comments,
 .UFIComment,
@@ -714,6 +711,7 @@ body [class*=commentaires i],
 .user_comment,
 .widget-comments,
 .commentBox,
+.comments-wrap,
 #cmtWrapper
 {
 	display: none !important;
