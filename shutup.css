@@ -673,6 +673,10 @@ div.detail-characters-list ~ div.borderDark,
 /* gazeta.pl */
 .commentsApp,
 
+/* AppleInsider */
+.comment-section-head,
+.comment-section-head ~ .forum-comment,
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
