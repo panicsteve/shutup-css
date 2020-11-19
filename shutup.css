@@ -97,9 +97,6 @@ body [class*=spotim i],
 /* KATU */
 #commentform,
 
-/* Washington Post and other sites that use "commentText" divs */
-.commentText,
-
 /* Gannett newspapers and other sites that use Pluck */
 div#pluckcomments,
 
@@ -715,7 +712,9 @@ body [class*=commentaires i],
 .user_comment,
 .widget-comments,
 .commentBox,
+.commentText,
 .comments-wrap,
+#comments-wrapper,
 #cmtWrapper
 {
 	display: none !important;
