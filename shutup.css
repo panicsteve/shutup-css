@@ -50,7 +50,9 @@ body [class*=disqus i],
 
 /* spot.im AKA OpenWeb */
 body [id*=spotim i],
+body [id*=spot-im i],
 body [class*=spotim i],
+body [class*=spot-im i],
 
 /*
  * Digg and other sites that use "comments" divs
@@ -673,6 +675,9 @@ div.detail-characters-list ~ div.borderDark,
 /* AppleInsider */
 .comment-section-head,
 .comment-section-head ~ .forum-comment,
+
+/* metro.co.uk */
+#metro-comments-area,
 
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
