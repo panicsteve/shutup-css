@@ -686,6 +686,9 @@ div.detail-characters-list ~ div.borderDark,
 .deets.populated > .writing,
 .spotlight-unit .item-desc,
 
+/* Various French streaming mirrors */
+.barremenu ~ div.row div[id^="critique"],
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -710,6 +713,7 @@ body [class*=commentaires i],
 #comment_entries,
 #comment_form,
 #commentlist,
+#comments-panel,
 #user-comments,
 #user_commeent_section,
 .comments_area,
