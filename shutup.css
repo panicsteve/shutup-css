@@ -54,6 +54,10 @@ body [id*=spot-im i],
 body [class*=spotim i],
 body [class*=spot-im i],
 
+/* Coral */
+div[id="coral_talk_stream"],    /* v4 */
+div[id="coral_thread"],         /* v5 */
+
 /*
  * Digg and other sites that use "comments" divs
  * (Make an exception for <code> elements, whose "comments" are
