@@ -55,8 +55,8 @@ body [class*=spotim i],
 body [class*=spot-im i],
 
 /* Coral */
-div[id="coral_talk_stream"],    /* v4 */
-div[id="coral_thread"],         /* v5 */
+div#coral_talk_stream,    /* v4 */
+div#coral_thread,         /* v5 */
 
 /*
  * Digg and other sites that use "comments" divs
@@ -512,12 +512,12 @@ article._8Rm4L div.ybXk5, /* Feed, all comments except OP */
 article._8Rm4L a.r8ZrO, /* Feed, show comments link */
 
 /* Pixiv */
-div#root section.dBUetj,
-#js-mount-point-comment-module,
-.comment-list,
+div#root > div#gtm-var-theme-kind ~ div main > section > div > div >
+	section[class^="sc-"],
 
 /* Pixiv Fanbox */
-div#root div.jUvQSR,
+div#root > div[class^="sc-"] > div[class^="sc-"] > div:not([class])
+	div[class^="sc-"] > article ~ div:not([class]) > div[class^="sc-"],
 
 /* Yahoo! News floating comment dingus */
 #YDC-MainCanvas .canvas-share-buttons > div:last-child,
@@ -777,7 +777,7 @@ table.diff .comment,
 .group-page > .group > div[data-thread-id] .comment,
 body > div#dimmers + .quote_container .comment
 {
-  display: table !important;
+	display: table !important;
 }
 
 
