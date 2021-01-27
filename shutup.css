@@ -462,6 +462,7 @@ div#root > div.a.b.c article ~ div div + div + button,
 .replies_wrap > div:first-child,
 #pv_comments.wall_module,
 #mv_comments.wall_module,
+.wl_replies_block_wrap,
 
 /* Dailymotion */
 .pl_video_comment_post_and_comments,
@@ -693,6 +694,12 @@ div.detail-characters-list ~ div.borderDark,
 /* Various French streaming mirrors */
 .barremenu ~ div.row div[id^="critique"],
 
+/* kinopoisk.ru */
+.media-post-page__comments-section,
+
+/* opennet.ru */
+table.ttxt2 td.ctxt,
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -705,6 +712,7 @@ div.detail-characters-list ~ div.borderDark,
 .content form ~ a#ci ~ div[id^=c8],
 .content form ~ a#ci ~ div[id^=c9],
 #cdiv.gm,
+#ws > #content > table#details ~ table,
 
 /* *** Generic *** */
 body [id*=commentaires i],
@@ -718,6 +726,7 @@ body [class*=commentaires i],
 #comment_form,
 #commentlist,
 #comments-panel,
+#comments-app-container,
 #user-comments,
 #user_commeent_section,
 .comments_area,
