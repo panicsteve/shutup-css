@@ -236,14 +236,45 @@ p.theme-comments,
 /* dilbert.com */
 .CMT_CommentList,
 
-/* Facebook feedback */
+/* Facebook comments */
+[data-pagelet="page"] [aria-label^="Comment"],                                                  /* English, French, Italian */
+[data-pagelet="page"] [aria-label^="B\EC nh\ lu\1EAD n"],                                       /* Vietnamese */
+[data-pagelet="page"] [aria-label^="Coment"],                                                   /* Portuguese, Romanian, Spanish */
+[data-pagelet="page"] [aria-label*="hozz\E1 sz\F3 l\E1 sa"],                                    /* Hungarian */
+[data-pagelet="page"] [aria-label^="Koment"],                                                   /* Croatian, Malay, Slovak, Slovene */
+[data-pagelet="page"] [aria-label*="komment" i],                                                /* Danish, Finnish, German, Norwegian, Swedish */
+[data-pagelet="page"] [aria-label^="Opmerking"],                                                /* Dutch */
+[data-pagelet="page"] [aria-label*="yorumu"],                                                   /* Turkish */
+[data-pagelet="page"] [aria-label^="\41A \43E \43C \435 \43D \442 \430 \440 "],                 /* Ukrainian */
+[data-pagelet="page"] [aria-label^="\41A \43E \43C \43C \435 \43D \442 \430 \440 \438 \439 "],  /* Russian */
+[data-pagelet="page"] [aria-label*="\E04 \E34 \E14 \E40 \E2B \E47 \E19 "],                      /* Thai */
+[data-pagelet="page"] [aria-label*="\B313 \AE00 "],                                             /* Korean */
+[data-pagelet="page"] [aria-label*="\30B3 \30E1 \30F3 \30C8 "],                                 /* Japanese */
+[data-pagelet="page"] [aria-label*="\7684 \7559 \8A00 "],                                       /* Traditional Chinese */
+[data-pagelet="page"] [aria-label*="\8BC4 \8BBA "],                                             /* Simplified Chinese */
+
+/* Facebook replies (where not hidden by the above) */
+[data-pagelet="page"] [aria-label^="Reply"],                                          /* English */
+[data-pagelet="page"] [aria-label^="Antwo"],                                          /* Dutch, German */
+[data-pagelet="page"] [aria-label^="Balasan"],                                        /* Malay */
+[data-pagelet="page"] [aria-label^="Odgovor"],                                        /* Croatian, Slovene */
+[data-pagelet="page"] [aria-label^="Odpo"],                                           /* Polish, Slovak */
+[data-pagelet="page"] [aria-label^="R\103 spuns"],                                    /* Romanian */
+[data-pagelet="page"] [aria-label^="R\E9 ponse"],                                     /* French */
+[data-pagelet="page"] [aria-label^="Resposta"],                                       /* Portuguese */
+[data-pagelet="page"] [aria-label^="Respuesta"],                                      /* Spanish */
+[data-pagelet="page"] [aria-label^="Risposta"],                                       /* Italian */
+[data-pagelet="page"] [aria-label^="Svar"],                                           /* Danish, Norwegian, Swedish */
+[data-pagelet="page"] [aria-label^="Tr\1EA3 \ l\1EDD i"],                             /* Vietnamese */
+[data-pagelet="page"] [aria-label*="v\E1 lasza"],                                     /* Hungarian */
+[data-pagelet="page"] [aria-label^="\412 \456 \434 \43F \43E \432 \456 \434 \44C "],  /* Ukrainian */
+[data-pagelet="page"] [aria-label^="\41E \442 \432 \435 \442 "],                      /* Russian */
+
+/* Facebook (previously-known selectors) */
 .fb-comments,
 .UFIComment,
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
-/* new facebook beta look */
-[data-pagelet="page"] [aria-label^="Comment"],
-[data-pagelet="page"] [aria-label^="Reply"],
 
 /* buzzfeed */
 #responses,
