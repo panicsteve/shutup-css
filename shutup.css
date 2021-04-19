@@ -731,6 +731,10 @@ div.detail-characters-list ~ div.borderDark,
 /* opennet.ru */
 table.ttxt2 td.ctxt,
 
+/* AniList */
+#app .page-content .activity-feed-wrap + div > .recent-threads,
+#app .page-content .media .threads,
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -770,6 +774,7 @@ body [class*=commentaires i],
 .commentBox,
 .commentBoxStyle,
 .commentText,
+.commenting-wrapper,
 .comments-area,
 .comments-list,
 .comments-pane,
