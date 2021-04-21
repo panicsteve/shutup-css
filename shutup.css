@@ -514,8 +514,9 @@ div#root > div.a.b.c article ~ div div + div + button,
 .is-comments-widget,
 #comments-list,
 
-/* MacRumors mobile site comments link */
+/* MacRumors */
 .teaser .teaser_footer > a,
+div#root > div[class^="app"] > div[class^="contentWrap"] > div[class^="trending"],
 
 /* USgamer paragraph comment buttons */
 a.button.annotation-count,
