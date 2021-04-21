@@ -531,6 +531,9 @@ div[data-a-target="right-column-chat-bar"],
 #watch-sidebar-live-chat,
 ytd-live-chat-frame,
 
+/* Hopin Chat */
+nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
+
 /* GoComics */
 .js-comments-thread-container,
 
