@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'shutup.css'
 jobs:
   prepare-and-deploy-update:
     runs-on: ubuntu-latest
