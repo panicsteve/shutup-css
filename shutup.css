@@ -514,8 +514,11 @@ div#root > div.a.b.c article ~ div div + div + button,
 .is-comments-widget,
 #comments-list,
 
-/* MacRumors mobile site comments link */
-.teaser .teaser_footer > a,
+/* MacRumors */
+div[class^="footer"] a[href*="forums.macrumors.com/threads"],
+div#root > div[class^="app"] > div[class^="contentWrap"] > div[class^="trending"],
+div#root > div[class^="app"] > div[class^="contentWrap"] .glide .post--thread,
+div#root > div[class^="app"] > div[class^="contentWrap"] div[class^="sidebar"] div[class^="widget"][class*="secondary--"],
 
 /* USgamer paragraph comment buttons */
 a.button.annotation-count,
@@ -530,6 +533,9 @@ div[data-a-target="right-column-chat-bar"],
 /* YouTube Live Chat */
 #watch-sidebar-live-chat,
 ytd-live-chat-frame,
+
+/* Hopin Chat */
+nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
 
 /* GoComics */
 .js-comments-thread-container,
@@ -734,6 +740,9 @@ table.ttxt2 td.ctxt,
 /* AniList */
 #app .page-content .activity-feed-wrap + div > .recent-threads,
 #app .page-content .media .threads,
+
+/* Crunchyroll */
+.c-comments-count,
 
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
