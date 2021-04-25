@@ -739,6 +739,9 @@ table.ttxt2 td.ctxt,
 #app .page-content .activity-feed-wrap + div > .recent-threads,
 #app .page-content .media .threads,
 
+/* Crunchyroll */
+.c-comments-count,
+
 /* Adult */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
