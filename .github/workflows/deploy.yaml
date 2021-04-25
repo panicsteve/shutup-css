@@ -1,0 +1,24 @@
+name: deploy
+on: [push]
+jobs:
+  prepare-and-deploy-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: Prepare stylesheet
+        run: |
+          mkdir -p $GITHUB_WORKSPACE/build
+          cp $GITHUB_WORKSPACE/shutup.css $GITHUB_WORKSPACE/build/
+          brotli -9 --no-copy-stat --stdout $GITHUB_WORKSPACE/build/shutup.css > $GITHUB_WORKSPACE/build/shutup.css.br
+          gzip --best --no-name --stdout $GITHUB_WORKSPACE/build/shutup.css > $GITHUB_WORKSPACE/build/shutup.css.gz
+      - name: Deploy update
+        uses: AEnterprise/rsync-deploy@06168fb7cc757886bb6e8d143caf20935987beb3
+        env:
+          DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-havP --progress"
+          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+          FOLDER: "build/"
+          SERVER_IP: ${{ secrets.SERVER_IP }}
+          USERNAME: ${{ secrets.USERNAME }}
+          SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
