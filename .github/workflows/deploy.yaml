@@ -1,5 +1,8 @@
 name: deploy
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   prepare-and-deploy-update:
     runs-on: ubuntu-latest
