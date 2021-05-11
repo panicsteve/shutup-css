@@ -40,6 +40,9 @@
 #watch-discussion,
 #comments-test-iframe,
 ytm-comment-section-renderer,
+ytd-comments,
+ytd-comment-thread-renderer,
+ytd-comment-renderer,
 
 /* Disqus */
 a[data-disqus-identifier],
