@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'shutup.css'
+  workflow_dispatch:
 jobs:
   prepare-and-deploy-update:
     runs-on: ubuntu-latest
