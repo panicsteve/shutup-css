@@ -28,3 +28,30 @@ jobs:
           SERVER_IP: ${{ secrets.SERVER_IP }}
           USERNAME: ${{ secrets.USERNAME }}
           SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
+  webextension-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+          with:
+            path: shutup-css
+      - name: Checkout webextension
+        uses: actions/checkout@v2
+          with:
+            token: ${{ secrets.PR_TOKEN }}
+            repository: RickyRomero/shut-up-webextension
+            path: shut-up-webextension
+      - name: Copy CSS
+        run: |
+          cp shutup-css/shutup.css shut-up-webextension/resources/shutup.css
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@d9d6fd980e1e0904e8e4dce3f0992640091bde37
+          with:
+            token: ${{ secrets.PR_TOKEN }}
+            path: shut-up-webextension
+            commit-message: Update shutup.css
+            title: Update shutup.css
+            body:
+            assignees: RickyRomero
+            branch: stylesheet-automation
+            delete-branch: true
