@@ -31,6 +31,10 @@ jobs:
   webextension-pr:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
       - name: Checkout main
         uses: actions/checkout@v2
         with:
@@ -41,9 +45,23 @@ jobs:
           token: ${{ secrets.PR_TOKEN }}
           repository: RickyRomero/shut-up-webextension
           path: shut-up-webextension
-      - name: Copy CSS
+      - name: Copy CSS and bump version
         run: |
           cp shutup-css/shutup.css shut-up-webextension/resources/shutup.css
+          (
+          cat <<EOF
+          const fs = require('fs')
+          const manifestPath = './shut-up-webextension/manifest.json'
+          const manifest = require(manifestPath)
+          const versionComponents = manifest.version.split('.').map(str => Number(str))
+          while (versionComponents.length < 4) {
+          versionComponents.push(0)
+          }
+          versionComponents[3] += 1
+          manifest.version = versionComponents.join('.')
+          fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2))
+          EOF
+          ) | node
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@d9d6fd980e1e0904e8e4dce3f0992640091bde37
         with:
