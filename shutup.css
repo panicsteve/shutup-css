@@ -34,12 +34,14 @@
  */
 
 /* YouTube */
-#cm,
 #watch-comment-panel,
 #watch-comments-core,
 #watch-discussion,
 #comments-test-iframe,
+#cm,
 ytm-comment-section-renderer,
+ytm-comments-entry-point-header-renderer,
+ytm-engagement-panel,
 ytd-comments,
 ytd-comment-thread-renderer,
 ytd-comment-renderer,
