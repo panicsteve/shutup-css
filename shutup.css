@@ -831,7 +831,10 @@ pre span.comment,
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
 table.diff .comment,
-.mw-summary-preview .comment
+.mw-summary-preview .comment,
+
+/* WordPress admin panel comment view */
+#wpcom main.comments
 {
 	display: initial !important;
 }
