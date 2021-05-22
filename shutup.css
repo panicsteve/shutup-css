@@ -831,10 +831,7 @@ pre span.comment,
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
 table.diff .comment,
-.mw-summary-preview .comment,
-
-/* WordPress admin panel comment view */
-#wpcom main.comments
+.mw-summary-preview .comment
 {
 	display: initial !important;
 }
@@ -851,7 +848,12 @@ body > div#dimmers + .quote_container .comment
 
 
 /* GitHub - Pull Request comments */
-.repository-content .comment
+.repository-content .comment,
+
+/* WordPress admin panel comment view */
+#wpcom main.comments,
+#wpcom main.comments .comment-list,
+#wpcom main.comments .comment-list .comment
 {
 	display: block !important;
 }
