@@ -389,8 +389,7 @@ section#story-community.story-community,
 #QuickRegCon,
 
 /* tagesschau.de */
-.inpagecomments,
-.modCon.modConComments,
+.user-kommentar-block,
 
 /* taz.de */
 .full.community.page.last.even,
@@ -848,7 +847,12 @@ body > div#dimmers + .quote_container .comment
 
 
 /* GitHub - Pull Request comments */
-.repository-content .comment
+.repository-content .comment,
+
+/* WordPress admin panel comment view */
+#wpcom main.comments,
+#wpcom main.comments .comment-list,
+#wpcom main.comments .comment-list .comment
 {
 	display: block !important;
 }
