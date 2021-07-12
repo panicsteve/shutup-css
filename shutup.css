@@ -748,7 +748,7 @@ table.ttxt2 td.ctxt,
 /* Crunchyroll */
 .c-comments-count,
 
-/* Adult */
+/* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
 .content form ~ a#ci ~ div[id^=c2],
@@ -759,6 +759,7 @@ table.ttxt2 td.ctxt,
 .content form ~ a#ci ~ div[id^=c7],
 .content form ~ a#ci ~ div[id^=c8],
 .content form ~ a#ci ~ div[id^=c9],
+.ncomments_container,
 #cdiv.gm,
 #ws > #content > table#details ~ table,
 
