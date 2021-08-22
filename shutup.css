@@ -98,6 +98,8 @@ div#coral_thread,         /* v5 */
 
 /* Reddit */
 .commentarea,
+shreddit-comment-tree,
+shreddit-comment,
 
 /* Designer News */
 #story-comments,
@@ -274,6 +276,10 @@ html#facebook [aria-label^="Tr\1EA3 \ l\1EDD i"],                             /*
 html#facebook [aria-label*="v\E1 lasza"],                                     /* Hungarian */
 html#facebook [aria-label^="\412 \456 \434 \43F \43E \432 \456 \434 \44C "],  /* Ukrainian */
 html#facebook [aria-label^="\41E \442 \432 \435 \442 "],                      /* Russian */
+
+/* Facebook (mobile site) */
+[data-sigil="comment"],
+[id^="comment_replies"],
 
 /* Facebook (previously-known selectors) */
 .fb-comments,
@@ -552,6 +558,10 @@ nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
 ul.Mr508, /* Detail page, all comments except OP */
 article._8Rm4L div.ybXk5, /* Feed, all comments except OP */
 article._8Rm4L a.r8ZrO, /* Feed, show comments link */
+
+/* Instagram (mobile site) */
+div.rBNOH.ybXk5, /* Detail page, all comments except OP */
+div.EtaWk > div > div:nth-child(2), /* Replies container */
 
 /* Pixiv */
 div#root > div#gtm-var-theme-kind ~ div main > section > div > div >
