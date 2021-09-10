@@ -758,6 +758,9 @@ table.ttxt2 td.ctxt,
 /* Crunchyroll */
 .c-comments-count,
 
+/* 1plus1.video */
+._opo_-playlist-comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
