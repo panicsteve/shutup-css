@@ -58,6 +58,7 @@ body [id*=spotim i],
 body [id*=spot-im i],
 body [class*=spotim i],
 body [class*=spot-im i],
+[data-spot-im-shadow-host],
 
 /* Coral */
 div#coral_talk_stream,    /* v4 */
@@ -210,6 +211,10 @@ p.theme-comments,
 .comments-button,
 .dna-comment,
 .nw-c-comment,
+
+/* thetimes.co.uk */
+[class*="CommentContainer" i],
+#comments-container,
 
 /* ZDNet */
 .view-6,
