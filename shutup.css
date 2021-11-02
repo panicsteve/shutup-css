@@ -38,7 +38,6 @@
 #watch-comments-core,
 #watch-discussion,
 #comments-test-iframe,
-#cm,
 ytm-comment-section-renderer,
 ytm-comments-entry-point-header-renderer,
 ytm-engagement-panel,
@@ -299,6 +298,14 @@ html#facebook [aria-label^="\41E \442 \432 \435 \442 "],                      /*
 .UFIComment,
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
+
+/* LinkedIn */
+.comments-comment-item,
+.comments-comments-list,
+.comments-comments-list__comment-item,
+.feed-shared-update-v2__comments-container,
+.social-details-first-prompt-block,
+.social-details-social-counts__comments,
 
 /* buzzfeed */
 #responses,
