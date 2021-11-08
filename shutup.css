@@ -572,7 +572,7 @@ nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
 
 /* Patreon */
 [data-test-tag="comment-row"],
-[data-tag="comment-row"],
+[data-tag="post-details"] ~ :last-child,
 
 /* Instagram */
 ul.Mr508, /* Detail page, all comments except OP */
