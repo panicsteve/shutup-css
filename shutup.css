@@ -559,6 +559,7 @@ a.button.annotation-count,
 .channel-page__right-column .chat__container,
 .chat-pane .chat-pane__chat-list,
 div[data-a-target="right-column-chat-bar"],
+.stream-chat,
 
 /* YouTube Live Chat */
 #watch-sidebar-live-chat,
