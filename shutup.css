@@ -782,6 +782,10 @@ table.ttxt2 td.ctxt,
 /* 1plus1.video */
 ._opo_-playlist-comments,
 
+/* Stack Exchange sites (e.g., Stack Overflow) */
+[itemprop="commentCount"],
+.js-post-comments-component,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
