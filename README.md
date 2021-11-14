@@ -20,7 +20,7 @@ These extensions by [Ricky Romero][site-ricky] automatically update themselves w
 
 Shut Up for Safari on macOS requires macOS Sierra or later.
 
-If you don't want a separate extension, you can instead use the [Stylish][stylish-plugin] plug-in, in combination with the raw shutup.css stylesheet (detailed below).
+If you don't want a separate extension, you can instead use the [Stylus][stylus-plugin] plug-in, in combination with the raw shutup.css stylesheet (detailed below).
 
 ### Installation on Opera
 
@@ -119,4 +119,4 @@ You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stev
 [twitter-steven]: https://twitter.com/stevenf/  (Steven Frank's Twitter profile)
 
 [content-blocker-plus]: https://apps.apple.com/app/id1040960141  (Content Blocker+)
-[stylish-plugin]: https://userstyles.org/  (Stylish Plugin)
+[stylus-plugin]: https://add0n.com/stylus.html  (Stylus Plugin)
