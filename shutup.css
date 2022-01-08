@@ -291,7 +291,10 @@ html#facebook [aria-label^="\412 \456 \434 \43F \43E \432 \456 \434 \44C "],  /*
 html#facebook [aria-label^="\41E \442 \432 \435 \442 "],                      /* Russian */
 
 /* Facebook (mobile site) */
-[data-sigil="comment"],
+[data-sigil="comments-token"],
+[data-sigil^="comment"],
+[data-sigil="replies-see-more"],
+[data-sigil*="inline-reply"],
 [id^="comment_replies"],
 
 /* Facebook (previously-known selectors) */
