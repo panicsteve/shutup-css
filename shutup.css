@@ -790,6 +790,10 @@ table.ttxt2 td.ctxt,
 [itemprop="commentCount"],
 .js-post-comments-component,
 
+/* LeagueofComicGeeks.com */
+#comic-details #reviews,
+#comic-details #discussion,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
