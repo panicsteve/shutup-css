@@ -102,6 +102,9 @@ div#coral_thread,         /* v5 */
 .commentarea,
 shreddit-comment-tree,
 shreddit-comment,
+comment-body-header,
+shreddit-comments-page-ad,
+faceplate-batch[target="#comment-tree"],
 
 /* Designer News */
 #story-comments,
@@ -793,6 +796,9 @@ table.ttxt2 td.ctxt,
 /* LeagueofComicGeeks.com */
 #comic-details #reviews,
 #comic-details #discussion,
+
+/* theage.com.au */
+[data-testid="comments-cta"],
 
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
