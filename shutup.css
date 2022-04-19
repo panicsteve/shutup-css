@@ -804,6 +804,13 @@ table.ttxt2 td.ctxt,
 /* theage.com.au */
 [data-testid="comments-cta"],
 
+/* formel1.de */
+.fa-comments,
+.btn-comments,
+
+/* golem.de */
+.icon-comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
