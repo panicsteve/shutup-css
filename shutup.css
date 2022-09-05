@@ -40,11 +40,11 @@
 #comments-test-iframe,
 ytm-comment-section-renderer,
 ytm-comments-entry-point-header-renderer,
-ytm-engagement-panel,
 ytd-comments,
 ytd-comment-thread-renderer,
 ytd-comment-renderer,
 ytd-comments-entry-point-header-renderer,
+[section-identifier="comment-item-section"],
 
 /* Disqus */
 a[data-disqus-identifier],
@@ -755,7 +755,7 @@ div.pod-body.review,
 .reviews-section-wrap,
 
 /* MyAnimeList */
-div.detail-characters-list ~ div.borderDark,
+#myanimelist .review-element,
 
 /* teltarif.de */
 #LxComments,
@@ -814,6 +814,9 @@ table.ttxt2 td.ctxt,
 /* golem.de */
 .icon-comments,
 
+/* vnexpress.net */
+.count_cmt,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -833,6 +836,7 @@ table.ttxt2 td.ctxt,
 body [id*=commentaires i],
 body [class*=commentaires i],
 #blogComments,
+#box_comment,
 #cmtWrapper,
 #comment-list,
 #comment_entries,
@@ -866,6 +870,7 @@ body [class*=commentaires i],
 .pagecommentheader,
 .post-comment-list,
 .post-comments,
+.section-comment,
 .user_comment,
 .widget-comments
 {
