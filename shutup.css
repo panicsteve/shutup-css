@@ -755,7 +755,7 @@ div.pod-body.review,
 .reviews-section-wrap,
 
 /* MyAnimeList */
-div.detail-characters-list ~ div.borderDark,
+#myanimelist .review-element,
 
 /* teltarif.de */
 #LxComments,
