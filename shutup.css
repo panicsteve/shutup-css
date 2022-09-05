@@ -40,11 +40,11 @@
 #comments-test-iframe,
 ytm-comment-section-renderer,
 ytm-comments-entry-point-header-renderer,
-ytm-engagement-panel,
 ytd-comments,
 ytd-comment-thread-renderer,
 ytd-comment-renderer,
 ytd-comments-entry-point-header-renderer,
+[section-identifier="comment-item-section"],
 
 /* Disqus */
 a[data-disqus-identifier],
