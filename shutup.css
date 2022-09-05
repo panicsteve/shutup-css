@@ -814,6 +814,9 @@ table.ttxt2 td.ctxt,
 /* golem.de */
 .icon-comments,
 
+/* vnexpress.net */
+.count_cmt,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -833,6 +836,7 @@ table.ttxt2 td.ctxt,
 body [id*=commentaires i],
 body [class*=commentaires i],
 #blogComments,
+#box_comment,
 #cmtWrapper,
 #comment-list,
 #comment_entries,
@@ -866,6 +870,7 @@ body [class*=commentaires i],
 .pagecommentheader,
 .post-comment-list,
 .post-comments,
+.section-comment,
 .user_comment,
 .widget-comments
 {
