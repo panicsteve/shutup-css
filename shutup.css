@@ -820,6 +820,9 @@ table.ttxt2 td.ctxt,
 /* Chess.com */
 #comments-component,
 
+/* Substack */
+.comments-section,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
