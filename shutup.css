@@ -927,6 +927,10 @@ body > div#dimmers + .quote_container .comment
 /* GitHub - Pull Request comments */
 .repository-content .comment,
 
+/* Substack comments pages */
+div.comments-page div.comment-list,
+div.comments-page div.comment-list div.comment,
+
 /* WordPress admin panel comment view */
 #wpcom main.comments,
 #wpcom main.comments .comment-list,
