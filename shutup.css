@@ -727,6 +727,9 @@ table.ttxt2 td.ctxt,
 /* vnexpress.net */
 .count_cmt,
 
+/* memberme.net */
+app-creator-detail-page app-post-detail-card div.card-footer,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
