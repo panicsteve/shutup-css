@@ -730,6 +730,9 @@ table.ttxt2 td.ctxt,
 /* memberme.net */
 app-creator-detail-page app-post-detail-card div.card-footer,
 
+/* flightaware.com */
+#squawk-comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
