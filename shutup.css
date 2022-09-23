@@ -418,6 +418,8 @@ div.comments-bar,
 
 /* The Verge */
 [data-ui=comment],
+.duet--article--comments-join-the-conversation,
+.duet--article--comments-link,
 
 /* lemonde.fr */
 .liste_reactions,
