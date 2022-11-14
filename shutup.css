@@ -518,9 +518,9 @@ nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
 [data-tag="post-details"] ~ :last-child,
 
 /* Instagram */
-ul.Mr508, /* Detail page, all comments except OP */
-article._8Rm4L div.ybXk5, /* Feed, all comments except OP */
-article._8Rm4L a.r8ZrO, /* Feed, show comments link */
+ul._a9ym, /* Detail page, all comments except OP */
+article._ab6k._ab6m div._ab8w > div._ab8w > div._ab8w, /* Feed, all comments except OP */
+article._ab6k._ab6m div._ab8w > div._ab8w a div._aad6._aade, /* Feed, show comments link */
 
 /* Instagram (mobile site) */
 div.rBNOH.ybXk5, /* Detail page, all comments except OP */
