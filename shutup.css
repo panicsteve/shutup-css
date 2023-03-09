@@ -734,6 +734,9 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 /* flightaware.com */
 #squawk-comments,
 
+/*Goodreads*/
+.ReviewsList,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
