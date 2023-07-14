@@ -737,6 +737,9 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 /*Goodreads*/
 .ReviewsList,
 
+/* itch.io */
+.game_comments_widget,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
