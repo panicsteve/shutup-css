@@ -166,7 +166,7 @@ p.theme-comments,
 
 /* cooking.nytimes.com */
 #userNotesMount,
-#notes_section
+#notes_section,
 
 /* Wall Street Journal */
 #comments_sector,
@@ -733,6 +733,12 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 
 /* flightaware.com */
 #squawk-comments,
+
+/*Goodreads*/
+.ReviewsList,
+
+/* itch.io */
+.game_comments_widget,
 
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
