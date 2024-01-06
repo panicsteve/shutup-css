@@ -740,6 +740,11 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 /* itch.io */
 .game_comments_widget,
 
+/* Sites using Insticator (e.g., National Review) */
+.insticator-unit,
+#insticator-commenting,
+.instiengage-comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
