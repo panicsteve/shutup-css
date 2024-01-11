@@ -45,7 +45,7 @@ The following content blocker apps include shutup.css:
 
 ## How do I install it on an Android device?
 
-Shut Up was previously available for Firefox on Android. However, the most recent update (as of late August 2020) [removed compatibility with almost all Firefox extensions][android-shitshow1]. [Please tell Mozilla what you think of these changes.][android-shitshow2]
+Firefox on Android can run add-ons. Simply use [the official Shut Up extension for Firefox][ext-firefox].
 
 ## Do I have to use an extension or plug-in?
 
@@ -102,9 +102,6 @@ You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stev
 [ext-edge]: https://microsoftedge.microsoft.com/addons/detail/giifliakcgfijgkejmenachfdncbpalp  (Shut Up at Edge Add-ons)
 [ext-opera]: #installation-on-opera  (Installation on Opera)
 [ext-privacy]: https://rickyromero.com/shutup/privacy/  (Shut Up Privacy Policy)
-
-[android-shitshow1]: https://www.forbes.com/sites/barrycollins/2020/08/26/firefox-on-android-gets-a-major-update-and-users-hate-it/  (Forbes: "Firefox On Android Gets A Major Update... And Users Hate It")
-[android-shitshow2]: https://play.google.com/store/apps/details?id=org.mozilla.firefox  (Firefox Browser on Google Play)
 
 [css-main]: shutup.css  (Main Stylesheet)
 [css-user]: shutup-user-stylesheet.css  (User Stylesheet)
