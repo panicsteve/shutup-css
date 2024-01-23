@@ -745,6 +745,9 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 #insticator-commenting,
 .instiengage-comments,
 
+/* Ghost */
+div.gh-comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
