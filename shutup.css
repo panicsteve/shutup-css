@@ -33,6 +33,9 @@
  *
  */
 
+/* WordPress */
+.wp-block-latest-comments,
+
 /* YouTube */
 #watch-comment-panel,
 #watch-comments-core,
@@ -812,6 +815,7 @@ body [class*=commentaires i],
 .section-comment,
 .user_comment,
 .widget-comments,
+.widget_recent_comments,
 #article-comments,
 #articleComments,
 #blogComments,
