@@ -902,7 +902,7 @@ body > div#dimmers + .quote_container .comment
 
 
 /* GitHub - Pull Request comments */
-.repository-content .comment,
+.pull-request-tab-content .comment,
 
 /* Substack comments pages */
 div.comments-page div.comment-list,
