@@ -753,6 +753,7 @@ div.gh-comments,
 
 /* GitHub */
 .inline-comments,
+#all_commit_comments,
 
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
