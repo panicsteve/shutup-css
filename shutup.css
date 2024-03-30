@@ -751,6 +751,9 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 /* Ghost */
 div.gh-comments,
 
+/* GitHub commit pages */
+#all_commit_comments,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
