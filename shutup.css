@@ -906,8 +906,9 @@ body > div#dimmers + .quote_container .comment
 
 
 
-/* GitHub - Pull Request comments */
+/* GitHub comments in pull requests and discussions/issues */
 .pull-request-tab-content .comment,
+#discussion_bucket .comment,
 
 /* Substack comments pages */
 div.comments-page div.comment-list,
