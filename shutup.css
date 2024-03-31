@@ -751,6 +751,11 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 /* Ghost */
 div.gh-comments,
 
+/* GitHub */
+.inline-comments,
+#all_commit_comments,
+.gist-content a[name="comments"] + div,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
@@ -902,7 +907,7 @@ body > div#dimmers + .quote_container .comment
 
 
 /* GitHub - Pull Request comments */
-.repository-content .comment,
+.pull-request-tab-content .comment,
 
 /* Substack comments pages */
 div.comments-page div.comment-list,
@@ -914,4 +919,12 @@ div.comments-page div.comment-list div.comment,
 #wpcom main.comments .comment-list .comment
 {
 	display: block !important;
+}
+
+
+
+/* GitHub pull request inline comments */
+.pull-request-tab-content .inline-comments
+{
+	display: table-row !important;
 }
