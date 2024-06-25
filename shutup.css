@@ -756,6 +756,9 @@ div.gh-comments,
 #all_commit_comments,
 .gist-content a[name="comments"] + div,
 
+/* Substack */
+#comments-for-scroll,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
