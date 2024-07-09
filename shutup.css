@@ -59,14 +59,26 @@ body [class*=disqus i],
 /* spot.im AKA OpenWeb */
 body [id*=spotim i],
 body [id*=spot-im i],
+body [id*=openweb i],
 body [class*=spotim i],
 body [class*=spot-im i],
+body [class*=openweb i],
 [data-spot-im-shadow-host],
+[data-spotim-module],
 
 /* Coral */
 div#coral_talk_stream,    /* v4 */
 div#coral_thread,         /* v5 */
 #coral-container,         /* as seen on WSJ */
+
+/* Viafoura */
+body [id*=viafoura i],
+body [class*=viafoura i],
+.vf-comments,
+
+/* Vuukle */
+body [id*=vuukle i],
+body [class*=vuukle i],
 
 /* Ain't It Cool News */
 .block-talkback_story,
@@ -124,6 +136,9 @@ div#shoutbox section.shoutbox,
 /* Yahoo News */
 .mwpphu-comments,
 .ugccmt-comments,
+
+/* Yahoo News (Japan) */
+#articleCommentModule,
 
 /* Coding Horror */
 #discourse-comments,
@@ -264,6 +279,15 @@ html#facebook [aria-label^="\41E \442 \432 \435 \442 "],                      /*
 .UFIComment,
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
+
+/* x.com replies */
+[aria-label="Timeline: Conversation"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+
+/* Mastodon replies */
+.status-reply.status--in-thread,
+
+/* Bluesky replies */
+.r-1jj8364 div:has([data-testid^="replyPromptBtn"]) ~ div:has([data-testid^="postThreadItem"]),
 
 /* LinkedIn */
 .comments-comment-item,
@@ -521,14 +545,16 @@ nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel,
 [data-test-tag="comment-row"],
 [data-tag="post-details"] ~ :last-child,
 
-/* Instagram */
+/* Instagram (Extremely obfuscated and fragile...) */
 ul._a9ym, /* Detail page, all comments except OP */
 article._ab6k._ab6m div._ab8w > div._ab8w > div._ab8w, /* Feed, all comments except OP */
 article._ab6k._ab6m div._ab8w > div._ab8w a div._aad6._aade, /* Feed, show comments link */
-
-/* Instagram (mobile site) */
-div.rBNOH.ybXk5, /* Detail page, all comments except OP */
-div.EtaWk > div > div:nth-child(2), /* Replies container */
+div.rBNOH.ybXk5, /* Mobile detail page, all comments except OP */
+div.EtaWk > div > div:nth-child(2), /* Mobile replies container */
+[id^="mount_"] .xw2csxc .x12nagc ~ div, /* Comment */
+[id^="mount_"] a[href$="/comments/"], /* Comments link */
+[id^="mount_"] .x1sxyh0:has(svg[aria-label="Comment"]), /* Comment icon, mobile */
+[id^="mount_"] .x1rg5ohu:has(svg[aria-label="Comment"]), /* Comment icon, desktop */
 
 /* Pixiv */
 div#root > div#gtm-var-theme-kind ~ div main > section > div > div >
@@ -726,7 +752,7 @@ table.ttxt2 td.ctxt,
 [data-testid="comments-cta"],
 
 /* formel1.de */
-.fa-comments,
+span.fa-comments,
 
 /* vnexpress.net */
 .count_cmt,
@@ -747,6 +773,10 @@ app-creator-detail-page app-post-detail-card div.card-footer,
 .insticator-unit,
 #insticator-commenting,
 .instiengage-comments,
+
+/* HoYoLAB */
+.mhy-article-page-reply,
+.mhy-article-card__data-item-clickable:has(.icon-stats_reply),
 
 /* Ghost */
 div.gh-comments,
@@ -775,6 +805,7 @@ div.gh-comments,
 #ws > #content > table#details ~ table,
 
 /* *** Generic *** */
+body [data-test-id*="comment" i],
 body [id*=commentaires i],
 body [class*=commentaires i],
 .all-comments,
@@ -794,6 +825,7 @@ body [class*=commentaires i],
 .commentBoxStyle,
 .commenting-wrapper,
 .commentlist,
+.commentsarea,
 .comments__container,
 .comments_area,
 .comments-area,

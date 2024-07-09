@@ -16,7 +16,7 @@ The simplest way to use shutup.css on a conventional desktop or laptop computer 
 * [Shut Up for Edge][ext-edge]
 * [Shut Up for Opera][ext-opera]
 
-These extensions by [Ricky Romero][site-ricky] automatically update themselves with the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
+These extensions by [Ricky Romero][site-ricky] automatically include or retrieve the latest shutup.css stylesheet, and allow you to toggle comment blocking on and off with a toolbar button.
 
 Shut Up for Safari on macOS requires macOS Sierra or later.
 
@@ -84,7 +84,7 @@ This may affect some web applications in unexpected ways. I'm told it hides the 
 
 Stylesheets like shutup.css contain no executable code, so they cannot track or spy on you.
 
-The official browser extensions by Ricky Romero are designed to protect your privacy. None of these extensions track or spy on your browsing activity. They all have similar features, but differ in how they integrate with your browser. Most of these extensions have a built-in update mechanism for shutup.css. [Read the plain-English privacy policy here][ext-privacy] for info specific to your browser.
+The official browser extensions by Ricky Romero are designed to protect your privacy. None of these extensions track or spy on your browsing activity. They all have similar features, but differ in how they integrate with your browser. [Read the plain-English privacy policy here][ext-privacy] for info specific to your browser.
 
 ## Can I contribute to shutup.css?
 
