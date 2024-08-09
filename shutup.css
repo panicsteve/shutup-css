@@ -33,6 +33,10 @@
  *
  */
 
+/* Threads.net */
+head:has(> link[href="https://www.threads.net/"]) + body div:has(> [aria-label="Reply"]),
+head:has(> link[href="https://www.threads.net/"]) + body div:has(> div > div > div[data-pressable-container] svg[aria-label="View activity"]) ~ div,
+
 /* WordPress */
 .wp-block-latest-comments,
 
