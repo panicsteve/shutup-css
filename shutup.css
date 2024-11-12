@@ -798,6 +798,7 @@ div.gh-comments,
 
 /* yle.fi */
 #yle-comments-plugin,
+p[class^="TuoreimmatItem__CommentTypography"],
 
 /* kaleva.fi */
 .m-contentListItem__discussion,
