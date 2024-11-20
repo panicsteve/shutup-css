@@ -796,6 +796,16 @@ div.gh-comments,
 /* Substack */
 #comments-for-scroll,
 
+/* yle.fi */
+#yle-comments-plugin,
+p[class^="TuoreimmatItem__CommentTypography"],
+
+/* kaleva.fi */
+.m-contentListItem__discussion,
+.__widget_DiscussionByline,
+.__widget_DiscussionButton,
+.discussion-container,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
