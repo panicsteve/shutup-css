@@ -806,6 +806,9 @@ p[class^="TuoreimmatItem__CommentTypography"],
 .__widget_DiscussionButton,
 .discussion-container,
 
+/* uol.com.br */
+section.solar-comment,
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
