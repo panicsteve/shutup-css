@@ -113,7 +113,6 @@ You can contact me at [stevenf@panic.com][email-steven].
 [site-dynamic-app-design]: http://dynamicappdesign.com  (Dynamic App Design LLC)
 
 [email-steven]: mailto:stevenf@panic.com  (Steven Frank's email address)
-[twitter-steven]: https://twitter.com/stevenf/  (Steven Frank's Twitter profile)
 
 [content-blocker-plus]: https://apps.apple.com/app/id1040960141  (Content Blocker+)
 [stylus-plugin]: https://add0n.com/stylus.html  (Stylus Plugin)
