@@ -92,7 +92,7 @@ Sure! You can [send me a pull request on GitHub][css-pull-request]. If you speak
 
 ## How do I contact you?
 
-You can contact me at [stevenf@panic.com][email-steven], or on Twitter as [@stevenf][twitter-steven].
+You can contact me at [stevenf@panic.com][email-steven].
 
 
 
