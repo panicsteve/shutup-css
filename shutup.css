@@ -606,6 +606,7 @@ iframe[src*="ffx.io/api/comments"],
 .a-article-meta__icon--comments,
 .kommentare_lesen_link,
 .forenbeitraege_show,
+a[name="meldung.newsticker.bottom.kommentarelesen"],
 a[name="meldung.newsticker.header.kommentarelesen"],
 .kommentare-info,
 
