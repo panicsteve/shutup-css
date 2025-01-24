@@ -287,8 +287,32 @@ html#facebook [aria-label^="\41E \442 \432 \435 \442 "],                      /*
 fb\:comments,
 div[data-testid^=UFI2CommentsList],
 
-/* x.com replies */
+/* x.com replies, various localizations */
 [aria-label="Timeline: Conversation"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="\10C asov\E1 \ os: Konverz\E1 cia"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="\65F6 \95F4 \7EBF \FF1A \5BF9 \8BDD "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="\6642 \9593 \8EF8 \FF1A \5C0D \8A71 "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="\D0C0 \C784 \B77C \C778 : \B300 \D654 "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Aikajana: Keskustelu"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Cronolog\ED a: Conversaci\F3 n"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Cronologia: Conversazione"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Cronologie: Conversa\21B ie"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Fil d'actualit\E9 s : Conversation"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Garis masa: Perbualan"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Id\151 vonal: Besz\E9 lget\E9 s"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Tidslinje: Konversation"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Tidslinje: Samtale"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Tidslinje: Samtale"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Tijdlijn: Gesprek"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Timeline: Conversa"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Timeline: Konversation"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Vremenska crta: Razgovor"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label="Zaman Ak\131 \15F \131 : Sohbet"] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label*="\30E0 \30E9 \30A4 \30F3 : \4F1A \8A71 "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label*="\435 \43D \442 \430 : \41F \435 \440 \435 "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label*="\456 \447 \43A \430 : \420 \43E \437 \43C "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label*="\E32 \E23 \E13 \E4C : \E1A \E17 \E2A \E19 "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
+[aria-label^="D\F2 ng th\1EDD i gian: Cu\1ED9 c tr\F2 \ "] div:has(button[data-testid="tweetButtonInline"]) ~ div:has(article[data-testid="tweet"]),
 
 /* Mastodon replies */
 .status-reply.status--in-thread,
