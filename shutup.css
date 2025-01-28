@@ -834,6 +834,10 @@ p[class^="TuoreimmatItem__CommentTypography"],
 /* uol.com.br */
 section.solar-comment,
 
+/* gamer.nl */
+html[data-theme="gamernl"] div[data-testid="badge__root"]:has(svg), /* Comment badge */
+html[data-theme="gamernl"] article > div > div > div:has(div.flex.flex-wrap.gap-2.items-center.mb-2):has(h3.heading5), /* Comments section */
+
 /* Various shady sites */
 .content form ~ a#ci ~ div[id^=c0],
 .content form ~ a#ci ~ div[id^=c1],
