@@ -654,7 +654,7 @@ div.article-view__meta-right:has(a[class="article__comments-link article-view__c
 .article-view__comments-link-2.js-thread-link,
 
 /* golem.de */
-.share-item.comments
+.share-item.comments,
 
 /* giga.de */
 #comments + #weiterethemen,
@@ -952,9 +952,12 @@ body [class*=commentaires i],
 #reacties,
 #show-comments-container,
 #user_commeent_section,
-#user-comments {
+#user-comments
+{
 	display: none !important;
 }
+
+
 
 /* *** Exceptions *** */
 
@@ -979,15 +982,21 @@ pre span.comment,
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
 table.diff .comment,
-.mw-summary-preview .comment {
+.mw-summary-preview .comment
+{
 	display: initial !important;
 }
 
+
+
 /* Fimfiction */
 .group-page > .group > div[data-thread-id] .comment,
-body > div#dimmers + .quote_container .comment {
+body > div#dimmers + .quote_container .comment
+{
 	display: table !important;
 }
+
+
 
 /* GitHub comments in pull requests and discussions/issues */
 .pull-request-tab-content .comment,
@@ -1000,11 +1009,15 @@ div.comments-page div.comment-list div.comment,
 /* WordPress admin panel comment view */
 #wpcom main.comments,
 #wpcom main.comments .comment-list,
-#wpcom main.comments .comment-list .comment {
+#wpcom main.comments .comment-list .comment
+{
 	display: block !important;
 }
 
+
+
 /* GitHub pull request inline comments */
-.pull-request-tab-content .inline-comments {
+.pull-request-tab-content .inline-comments
+{
 	display: table-row !important;
 }
