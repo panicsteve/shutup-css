@@ -551,6 +551,13 @@ div#root > div[class^="app"] > div[class^="contentWrap"] > div[class^="trending"
 div#root > div[class^="app"] > div[class^="contentWrap"] .glide .post--thread,
 div#root > div[class^="app"] > div[class^="contentWrap"] div[class^="sidebar"] div[class^="widget"][class*="secondary--"],
 
+/* mjtsai.com */
+div#main > div.post > div.feedback,
+div#main > div.post > div.feedback + h2,
+div#main > div.post > div.com[id^="com-id-"],
+div#main > div.post > h3#postcomment,
+div#main > div.post > form#commentform,
+
 /* USgamer paragraph comment buttons */
 a.button.annotation-count,
 
