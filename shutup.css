@@ -656,7 +656,12 @@ a[href*="#respond"],
 a[href*="#comments"],
 
 /* computerbase.de */
-.article__comments-link,
+span.article__meta-li:has(a[class="article__comments-link js-thread-link"]),
+div.article-view__meta-right:has(a[class="article__comments-link article-view__comments-link-1 js-thread-link"]),
+.article-view__comments-link-2.js-thread-link,
+
+/* golem.de */
+.share-item.comments,
 
 /* giga.de */
 #comments + #weiterethemen,
@@ -883,6 +888,7 @@ body [class*=commentaires i],
 .commentlist,
 .commentsarea,
 .comments__container,
+.comments-label,
 .comments_area,
 .comments-area,
 .comments-container,
