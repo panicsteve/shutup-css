@@ -438,6 +438,8 @@ section#story-community.story-community,
 
 /* taz.de */
 .full.community.page.last.even,
+#kommune[name="kommune"],
+a[href="#kommune"],
 
 /* fr-online.de */
 #commentsRoot,
@@ -640,6 +642,7 @@ iframe[src*="ffx.io/api/comments"],
 a[name="meldung.newsticker.bottom.kommentarelesen"],
 a[name="meldung.newsticker.header.kommentarelesen"],
 .kommentare-info,
+footer[data-component="TeaserMeta"].ho-text-muted.flex.flex-wrap.items-center.gap-3.leading-none.text-sm.mt-4 > .flex.items-center,
 
 /* mactechnews.de */
 span[title*="#comments"],
