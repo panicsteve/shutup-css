@@ -366,9 +366,11 @@ a[href*="detail_tab_comments"],
 .gig-comments-container,
 
 /* faz.net */
-.ArtikelKommentieren,
-.tsr-Base_ContentMetaItem-social-feedback,
-#lesermeinungen,
+button[track-label="Lesermeinungen"],
+button[track-label="Alle Lesermeinungen"],
+li:has(button[track-label="Lesermeinungen"]),
+div[data-external-selector="comments-entry"],
+div[data-external-selector="comments-loader"],
 
 /* Giant Bomb avatars */
 .comment-avatar-wrap,
@@ -438,6 +440,8 @@ section#story-community.story-community,
 
 /* taz.de */
 .full.community.page.last.even,
+#kommune[name="kommune"],
+a[href="#kommune"],
 
 /* fr-online.de */
 #commentsRoot,
@@ -640,6 +644,7 @@ iframe[src*="ffx.io/api/comments"],
 a[name="meldung.newsticker.bottom.kommentarelesen"],
 a[name="meldung.newsticker.header.kommentarelesen"],
 .kommentare-info,
+footer[data-component="TeaserMeta"].ho-text-muted.flex.flex-wrap.items-center.gap-3.leading-none.text-sm.mt-4 > .flex.items-center,
 
 /* mactechnews.de */
 span[title*="#comments"],
@@ -679,6 +684,7 @@ div.article-view__meta-right:has(a[class="article__comments-link article-view__c
 .pdb-article-comments,
 
 /* welt.de */
+.c-teaser__comment,
 .o-teaser__comment-count,
 div[data-external-component="User.Article.Likes"],
 
@@ -866,9 +872,11 @@ html[data-theme="gamernl"] article > div > div > div:has(div.flex.flex-wrap.gap-
 #ws > #content > table#details ~ table,
 
 /* *** Generic *** */
+a[href="#id-Comments"],
 body [data-test-id*="comment" i],
 body [id*=commentaires i],
 body [class*=commentaires i],
+egy-discussion,
 .all-comments,
 .article-comments,
 .articleComments,
@@ -955,6 +963,7 @@ body [class*=commentaires i],
 #commentsContainer,
 #commentsDiv,
 #commentwrapper,
+#id-Comments,
 #post-comments,
 #reacties,
 #show-comments-container,
