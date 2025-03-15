@@ -643,6 +643,7 @@ iframe[src*="ffx.io/api/comments"],
 .forenbeitraege_show,
 a[name="meldung.newsticker.bottom.kommentarelesen"],
 a[name="meldung.newsticker.header.kommentarelesen"],
+a[title="Kommentar lesen"],
 .kommentare-info,
 footer[data-component="TeaserMeta"].ho-text-muted.flex.flex-wrap.items-center.gap-3.leading-none.text-sm.mt-4 > .flex.items-center,
 
@@ -711,6 +712,9 @@ body[ng-app="pdaily"] a.discussions,
 /* piqd.de */
 .pq-comment-form-wrap,
 .rspec-comments-total,
+
+/* phoronix.com */
+a[href^="/forums/node/"],
 
 /* PressTV.com */
 #hypercomments_widget,
@@ -969,12 +973,9 @@ egy-discussion,
 #reacties,
 #show-comments-container,
 #user_commeent_section,
-#user-comments
-{
+#user-comments {
 	display: none !important;
 }
-
-
 
 /* *** Exceptions *** */
 
@@ -999,21 +1000,15 @@ pre span.comment,
 /* MediaWiki edit summaries (Wikipedia, etc.) */
 #pagehistory .comment,
 table.diff .comment,
-.mw-summary-preview .comment
-{
+.mw-summary-preview .comment {
 	display: initial !important;
 }
 
-
-
 /* Fimfiction */
 .group-page > .group > div[data-thread-id] .comment,
-body > div#dimmers + .quote_container .comment
-{
+body > div#dimmers + .quote_container .comment {
 	display: table !important;
 }
-
-
 
 /* GitHub comments in pull requests and discussions/issues */
 .pull-request-tab-content .comment,
@@ -1026,15 +1021,11 @@ div.comments-page div.comment-list div.comment,
 /* WordPress admin panel comment view */
 #wpcom main.comments,
 #wpcom main.comments .comment-list,
-#wpcom main.comments .comment-list .comment
-{
+#wpcom main.comments .comment-list .comment {
 	display: block !important;
 }
 
-
-
 /* GitHub pull request inline comments */
-.pull-request-tab-content .inline-comments
-{
+.pull-request-tab-content .inline-comments {
 	display: table-row !important;
 }
