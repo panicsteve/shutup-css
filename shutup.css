@@ -696,6 +696,11 @@ div[data-external-component="User.Article.Likes"],
 /* t-online.de */
 #talk_community,
 
+/* chefkoch.de */
+span:has(a[href="#commentContainer"]),
+.bi-comment-forms,
+.recipe-comments-anchor,
+
 /* curved.de */
 .article-content .engagement,
 
