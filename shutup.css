@@ -207,8 +207,8 @@ p.theme-comments,
 [class*="CommentContainer" i],
 
 /* ZDNet */
-.view-6,
-.space-_5,
+[class*="c-socialComments"],
+[class*="c-socialSharebar_button-comments"],
 
 /* Gamasutra */
 .all_comments,
