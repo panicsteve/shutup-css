@@ -207,8 +207,8 @@ p.theme-comments,
 [class*="CommentContainer" i],
 
 /* ZDNet */
-.view-6,
-.space-_5,
+[class*="c-socialComments"],
+[class*="c-socialSharebar_button-comments"],
 
 /* Gamasutra */
 .all_comments,
@@ -691,9 +691,15 @@ div[data-external-component="User.Article.Likes"],
 
 /* focus.de */
 #article #commentForm,
+.Article-Comments-Button,
 
 /* t-online.de */
 #talk_community,
+
+/* chefkoch.de */
+span:has(a[href="#commentContainer"]),
+.bi-comment-forms,
+.recipe-comments-anchor,
 
 /* curved.de */
 .article-content .engagement,
