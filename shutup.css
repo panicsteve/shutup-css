@@ -342,6 +342,13 @@ p[class^="TuoreimmatItem__CommentTypography"],
 /* .io
  * --------------------------------------------------------- */
 
+
+/* .is
+ * --------------------------------------------------------- */
+/* flibusta.is */
+span[class^="container_"]
+
+
 /* itch.io */
 .game_comments_widget,
 
