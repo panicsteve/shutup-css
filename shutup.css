@@ -346,7 +346,7 @@ p[class^="TuoreimmatItem__CommentTypography"],
 /* .is
  * --------------------------------------------------------- */
 /* flibusta.is */
-span[class^="container_"],
+div#main-wrapper > div#main:has(form[name="formrecs"]) > span[class^="container_"],
 
 
 /* itch.io */
