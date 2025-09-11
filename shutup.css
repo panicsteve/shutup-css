@@ -901,6 +901,9 @@ iframe[src*="ffx.io/api/comments"],
 .bottom-comments,
 .cmtwrapper,
 
+/* Tom's Hardware */
+.xenforo-comment-widget,
+
 /* trakt.tv */
 .summary-comments,
 
