@@ -968,6 +968,9 @@ body [class*=vuukle i],
 #article-comments-tool,
 [class*="comment-count"],
 
+/* Wired.com */
+.CommentingMainContent,
+
 /* WordPress */
 .wp-block-latest-comments,
 
