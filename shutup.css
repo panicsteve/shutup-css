@@ -682,15 +682,10 @@ iframe[src*="comments.ign.com"],
 .Gallery-CommentsCounter,
 
 /* Instagram (Extremely obfuscated and fragile...) */
-ul._a9ym, /* Detail page, all comments except OP */
-article._ab6k._ab6m div._ab8w > div._ab8w > div._ab8w, /* Feed, all comments except OP */
-article._ab6k._ab6m div._ab8w > div._ab8w a div._aad6._aade, /* Feed, show comments link */
-div.rBNOH.ybXk5, /* Mobile detail page, all comments except OP */
-div.EtaWk > div > div:nth-child(2), /* Mobile replies container */
-[id^="mount_"] .xw2csxc .x12nagc ~ div, /* Comment */
-[id^="mount_"] a[href$="/comments/"], /* Comments link */
-[id^="mount_"] .x1sxyh0:has(svg[aria-label="Comment"]), /* Comment icon, mobile */
-[id^="mount_"] .x1rg5ohu:has(svg[aria-label="Comment"]), /* Comment icon, desktop */
+head:has(link[href^="https://www.instagram.com"])+body a[href*="/comments/"], /* Comments text link */
+head:has(link[href^="https://www.instagram.com"])+body span:has(path[d^="M20.656 "]), /* Comment icon button */
+head:has(link[href^="https://www.instagram.com"])+body section:has(> div form path[d^="M15.83 "]), /* Comment form w/ emoji picker */
+head:has(link[href^="https://www.instagram.com"])+body section>main hr+div div div:has(a > img):has(span > a > time), /* Comment section */
 
 
 /* K
