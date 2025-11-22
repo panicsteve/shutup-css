@@ -940,6 +940,9 @@ div[data-a-target="right-column-chat-bar"],
 /* USgamer paragraph comment buttons */
 a.button.annotation-count,
 
+/* utteranc.es embeds */
+iframe[src*="utteranc.es"],
+
 
 /* V
  * --------------------------------------------------------- */
