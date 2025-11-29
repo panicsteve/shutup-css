@@ -686,7 +686,8 @@ iframe[src*="comments.ign.com"],
 head:has(link[href^="https://www.instagram.com"])+body a[href*="/comments/"], /* Comments text link */
 head:has(link[href^="https://www.instagram.com"])+body span:has(path[d^="M20.656 "]), /* Comment icon button */
 head:has(link[href^="https://www.instagram.com"])+body section:has(> div form path[d^="M15.83 "]), /* Comment form w/ emoji picker */
-head:has(link[href^="https://www.instagram.com"])+body section>main hr+div div div:has(a > img):has(span > a > time), /* Comment section */
+head:has(link[href^="https://www.instagram.com"])+body section>main hr+div div div:has(a > img, canvas+span>img):has(span > a > time), /* Comment section */
+head:has(link[href^="https://www.instagram.com"])+body ul>div:has(div>ul>div>li :is(a>img, canvas+span>img)):has(div>ul>div>li div span>a>time), /* Comment section */
 
 
 /* K
