@@ -753,6 +753,9 @@ div#root > div[class^="app"] > div[class^="contentWrap"] div[class^="sidebar"] d
 .responsesStreamWrapper,
 div#root > div.a.b.c article ~ div div + div + button,
 
+/* Micro.blog comments */
+div.microblog_conversation,
+
 /* MyAnimeList */
 #myanimelist .review-element,
 
