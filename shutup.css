@@ -640,6 +640,9 @@ div.gh-comments,
 /* GiantBomb avatars */
 .comment-avatar-wrap,
 
+/* Giscus embeds */
+iframe[src*="giscus.app"],
+
 /* GitHub */
 .inline-comments,
 #all_commit_comments,
