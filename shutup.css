@@ -306,6 +306,9 @@ a[href="#kommune"],
 /* teltarif.de */
 #LxComments,
 
+/* transfermarkt.de */
+div.box:has(a.profil-wappen),
+
 /* tz.de */
 .id-Comment,
 
