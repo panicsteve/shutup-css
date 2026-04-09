@@ -634,6 +634,9 @@ div[data-testid^=UFI2CommentsList],
 /* Gannett newspapers and other sites that use Pluck */
 div#pluckcomments,
 
+/* GBATemp */
+div.block--messages.block:nth-of-type(2)
+
 /* Ghost */
 div.gh-comments,
 
