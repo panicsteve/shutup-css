@@ -412,6 +412,9 @@ html[data-theme="gamernl"] article > div > div > div:has(div.flex.flex-wrap.gap-
 /* nu.nl */
 .comments-link-wrapper,
 
+/* vi.nl */
+a[class*="NewsHeader_comment-section"],
+[class*="CommentsThread"],
 
 /* .pl
  * --------------------------------------------------------- */
