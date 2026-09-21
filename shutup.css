@@ -231,6 +231,8 @@ span.fa-comments,
 
 /* golem.de */
 .share-item.comments,
+.go-teaser-block--nextread,
+.go-comment-button,
 
 /* handelsblatt.de */
 a[href*="detail_tab_comments"],
@@ -1205,7 +1207,7 @@ egy-discussion,
 #show-comments-container,
 #user_commeent_section,
 #user-comments {
-	display: none !important;
+  display: none !important;
 }
 
 /* =========================================================
@@ -1235,13 +1237,13 @@ pre span.comment,
 #pagehistory .comment,
 table.diff .comment,
 .mw-summary-preview .comment {
-	display: initial !important;
+  display: initial !important;
 }
 
 /* Fimfiction */
 .group-page > .group > div[data-thread-id] .comment,
 body > div#dimmers + .quote_container .comment {
-	display: table !important;
+  display: table !important;
 }
 
 /* GitHub comments in pull requests and discussions/issues */
@@ -1256,10 +1258,10 @@ div.comments-page div.comment-list div.comment,
 #wpcom main.comments,
 #wpcom main.comments .comment-list,
 #wpcom main.comments .comment-list .comment {
-	display: block !important;
+  display: block !important;
 }
 
 /* GitHub pull request inline comments */
 .pull-request-tab-content .inline-comments {
-	display: table-row !important;
+  display: table-row !important;
 }
